@@ -41,8 +41,45 @@ function Home() {
             <section>
                 <h2>The Best SEO Services in Pueblo, com</h2>
                 <p>If you have spent time looking into your marketing strategy in 2018 then you might have heard SEO thrown around a lot by peers as well as seen it online when looking for marketing services. Honestly, SEO is much less of a secret than it used to be, and we would love to help your company learn about best SEO practices as well as utilize them to grow your business. SEO simply stands for Search Engine Optimization. Think about it, when you are looking for a restaurant, a plumber, a tow truck, or really just about any information, where do you go? Google is the juggernaut but even people that don’t use google use a search engine of some kind to get information. Search engine optimization is the scientific process that we use to boost your presence on search engine results in the area of your business.</p>
-                <p>All of the search engines that people regularly use are using algorithms to determine which websites are most relevant to the search term that they are using. What our team does, is make sure that we have a complete understanding of how those algorithms work, and then we use your website and social media accounts to make sure that your business is the most relevant <em>place for Google</em> to send people for search terms that relate to your field. When people google to find the “best Mexican restaurant” there may actually be several around them that they don’t notice right away in the search results. With our strategy, we would make sure that restaurant is able to be seen right there on the first page of results, so that you do not miss out on any potential customers.</p>
-                <p>There are many things involved in utilizing <em>SEO</em> to boost your business, but if you give us a call we can set up a consultation to provide you with a complete view of our plan for you. Contact us today to learn more about utilizing best SEO practices for your business in Pueblo, CO. If you are located in Colorado springs please check out or Colorado Springs SEO company they can help with any Search engine optimization you may need.</p>
+                <p>All of the search engines that people regularly use are using algorithms to determine which websites are most relevant to the search term that they are using. What our team does, is make sure that we have a complete understanding of how those algorithms work, and then we use your website and social media accounts to make sure that your business is the most relevant <b>place for Google</b> to send people for search terms that relate to your field. When people google to find the “best Mexican restaurant” there may actually be several around them that they don’t notice right away in the search results. With our strategy, we would make sure that restaurant is able to be seen right there on the first page of results, so that you do not miss out on any potential customers.</p>
+                <p>There are many things involved in utilizing <b>SEO</b> to boost your business, but if you give us a call we can set up a consultation to provide you with a complete view of our plan for you. Contact us today to learn more about utilizing best SEO practices for your business in Pueblo, CO. If you are located in Colorado springs please check out or Colorado Springs SEO company they can help with any Search engine optimization you may need.</p>
+            </section>
+            <section>
+                <div className='client-card'>
+                    <img src='' alt='client pic'/>
+                    <q>Working with PUEBLO SE was a pleasure. Our PR team helped us stretch our thinking and found us new opportunities for growth. It was an amazing experience. </q>
+                    <p>Jeremy Winston / Think Again</p>
+                </div>
+                <div className='card'>
+                    <img src='' alt='client pic'/>
+                    <q>PUEBLO SEO approach to problem-solving is creative, fun and interesting. Together, we found solutions that were totally out of the box. Thanks GUYS! </q>
+                    <p>Maryanne Quincy / RM WINDOW TINT</p>
+                </div>
+                <div className='card'>
+                    <img src='' alt='section pic'/>
+                    <q>Best marketing firm I have ever worked with. Can’t wait for the next project. </q>
+                    <p>Renata Bergsman / SOCO HEATING AND COOLING</p>
+                </div>
+            </section>
+            <section>
+                <div>
+                    <h3>Understanding How Google Maps Works for Business</h3>
+                    <p>Whoa, whoa, whoa, you mean to tell me that <b>Google Maps</b> is a tool for business? That’s right. Think about everything that we have talked about for internet usage so far and it starts to make a lot of sense. Imagine that someone is in need of a few tools to carry out a home improvement project, often times they will go directly to google maps and search “hardware store” to see where the closest ones in their area are. What you may not know is that there are specific things that your business and website needs to do to guarantee that you show up when people are looking for a business like yours on <b>Google Maps</b>.</p>
+                    <p>That’s where we come in. Our team understands specifically what to do to guarantee that your business is a top result on Google Maps and a likely click for anyone searching for your type of business. We would love to share more with you about how we can get this done for your business in Pueblo, CO through a risk free consultation today.</p> 
+                </div>
+                <img src='' alt='client pic'/>
+            </section>
+            <section>
+                <img src='' alt='client pic'/>
+                <div>
+                    <h3>Facebook Ads Are Your Friend</h3>
+                    <p>One of the most visited sites on the entirety of the internet is Facebook. Facebook has so many users that the impact you can have on the social media juggernaut is undeniable. Unfortunately, many people waste money advertising on Facebook because they do not know how to utilize Facebook Ads to generate sales. Even though you get a presence boost from creating a Facebook Ad, if you do not have the right plan for your ad and using it to generate sales leads, it will all be for naught. Pueblo SEO will work with you to create <b>Facebook Ads in Pueblo</b>, Colorado that are properly targeted and use the analytics from those ads to generate sales for your business in the future.</p>
+                </div>
+                <p>Precise Use of Google Ads Creates Long Term Benefits</p>
+            </section>
+            <section>
+                <p>​In the results for your search terms on <b>Google</b>, you may notice there is a significant section of sites at the tops that are actually boosted by Google Ads. Google Ads is a necessary tool for the short term boost that it provides and the guaranteed eyes it gets on your website. However, when used properly this allows us to use the analytics and the increased traffic to convert sales and plan for our future online marketing efforts.</p>
+                <p>With <b>Pueblo SEO</b>, you get a team that understands the ins and outs of <b>internet marketing</b> and <b>web development</b> and will utilize all available tools to make sure that you are successful in generating sales leads so that you can grow your business. Our team is ready to put together a personalized plan for your business when you call us today and set up a free consultation. We look forward to helping you generate sales through revolutionary online marketing.</p>
             </section>
         </main>
     </div>

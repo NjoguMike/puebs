@@ -6,7 +6,7 @@ function Navbar() {
     <div className='navbar'>
         <ul className='nav'>
             <Link to={'/'}>Home</Link>
-            <Link to={'/about'}>About</Link>
+            <Link to={'/about'}>About Us</Link>
             <Link to={'/services'}>Our Services</Link>
             <Link to={'/contact'}>Contact Us</Link>
         </ul>
