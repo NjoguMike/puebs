@@ -1,11 +1,9 @@
 import React from 'react'
-import Navbar from '../Components/Navbar'
 import landing_image from '../Assets/landing_image.jpg'
 
 function Home() {
   return (
     <div>
-        <Navbar />
         <main>
             <img src={landing_image} alt='landing-view'/> 
             <section>
