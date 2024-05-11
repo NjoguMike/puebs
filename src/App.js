@@ -6,6 +6,12 @@ import Services from './Pages/Services';
 import Contact from './Pages/Contact';
 import Navbar from './Components/Navbar'
 import Footer from './Components/Footer'
+import Seo from './Pages/seo';
+import WebDesign from './Pages/webdesign';
+import MapsListing from './Pages/MapsListing';
+import GoogleAds from './Pages/GoogleAds';
+import SocialMediaAds from './Pages/SocialMediaAds';
+
 
 function App() {
   return (
@@ -16,6 +22,11 @@ function App() {
         <Route path='/about' element={<About />} />
         <Route path='/services' element={<Services />} />
         <Route path='/contact' element={<Contact />} />
+        <Route path='/seo' element={<Seo />} />
+        <Route path='/web-design' element={<WebDesign />} />
+        <Route path='/local-map-listing' element={<MapsListing />} />
+        <Route path='/social-media-ads' element={<SocialMediaAds />} />
+        <Route path='/google-ads' element={<GoogleAds />} />
       </Routes>
       <Footer />
     </div>
