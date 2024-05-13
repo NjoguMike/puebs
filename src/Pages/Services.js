@@ -1,18 +1,30 @@
 import React from 'react'
 import { useParams } from "react-router-dom";
 import ServiceFooter from '../Components/services_footer'
+import data1 from "../PageData.json"
 
-function Services({data}) {
+function Services() {
 
-  console.log(data)
   const { serviceId } = useParams();
 
-  // const service = service.filter((prod) => prod.id === parseInt(serviceId))[0];
+  const parameter = serviceId === undefined ? "services" : serviceId
+  const service = data1.filter((serv) => Object.keys(serv)[0] === parameter)[0]
 
+  const heading = service[parameter].Jumbotron.Heading
+  const heading_paragraph = service[parameter].Jumbotron.Paragraph
+  const section_images = service[parameter].Section_A.Images
+  const section_info = service[parameter].Section_A
 
+  console.log(heading)
   return (
     <div>
-      
+      <div>
+        <h2>{heading}</h2>
+        <p>{heading_paragraph}</p>
+      </div>
+      <div>
+        <img src="" alt=''/>
+      </div>
       <ServiceFooter />
     </div>
   )
