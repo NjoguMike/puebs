@@ -1,0 +1,39 @@
+.main{
+    margin: -8px;
+}
+
+.jumbo_image{
+    width: 100%;
+    height: auto;
+}
+
+section{
+    height: 720px;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.card_menu{
+    display: flex;
+    flex-direction: row;
+    padding: 10px 20px;
+
+    .card{
+        text-align: justify;
+        font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+        padding: 10px 20px;
+
+        button{
+            font-weight: bold;
+            padding: 10px 15px;
+            color: rgb(48, 159, 233);
+            border-radius: 10px;
+            background-color: #fff;
+            border: 2px solid rgb(48, 159, 233);
+        }
+        button:hover{
+            color: #fff;
+            background-color: rgb(48, 159, 233);
+            border: none;
+        }
+    }
+}
