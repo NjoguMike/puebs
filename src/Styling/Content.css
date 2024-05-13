@@ -10,14 +10,21 @@
 section{
     height: 720px;
     font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+
+    h3,h2{
+        color: firebrick;
+    }
 }
 
 .card_menu{
     display: flex;
+    justify-content: center;
+    align-content: center;
     flex-direction: row;
     padding: 10px 20px;
 
     .card{
+        width: 20em;
         text-align: justify;
         font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
         padding: 10px 20px;
