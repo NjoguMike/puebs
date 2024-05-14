@@ -4,9 +4,9 @@ import landing_image from '../Assets/landing_image.jpg'
 function Home() {
   return (
     <div className='main'>
-        <section>
+        <main>
             <img src={landing_image} alt='landing-view' className='jumbo_image'/> 
-        </section>
+        </main>
         <section>
             <h1>Pueblo Seo Brings You the Complete Internet Marketing Package</h1>
             <p>The internet is changing everything about how we conduct business, connect with people, and even the way that we get our most basic needs met. Every commodity from housing to food to entertainment is found in the online marketplace and the world has decided that convenience is a top priority for where they spend their hard-earned money. If you are in the process of building your audience and trying to take your business to the next level, then you have to be excited about the opportunities available to market your business on the internet.</p>
@@ -43,18 +43,18 @@ function Home() {
             <p>All of the search engines that people regularly use are using algorithms to determine which websites are most relevant to the search term that they are using. What our team does, is make sure that we have a complete understanding of how those algorithms work, and then we use your website and social media accounts to make sure that your business is the most relevant <b>place for Google</b> to send people for search terms that relate to your field. When people google to find the “best Mexican restaurant” there may actually be several around them that they don’t notice right away in the search results. With our strategy, we would make sure that restaurant is able to be seen right there on the first page of results, so that you do not miss out on any potential customers.</p>
             <p>There are many things involved in utilizing <b>SEO</b> to boost your business, but if you give us a call we can set up a consultation to provide you with a complete view of our plan for you. Contact us today to learn more about utilizing best SEO practices for your business in Pueblo, CO. If you are located in Colorado springs please check out or Colorado Springs SEO company they can help with any Search engine optimization you may need.</p>
         </section>
-        <section>
+        <section className='testimonials'>
             <div className='client-card'>
                 <img src='' alt='client pic'/>
                 <q>Working with PUEBLO SE was a pleasure. Our PR team helped us stretch our thinking and found us new opportunities for growth. It was an amazing experience. </q>
                 <p>Jeremy Winston / Think Again</p>
             </div>
-            <div className='card'>
+            <div className='client-card'>
                 <img src='' alt='client pic'/>
                 <q>PUEBLO SEO approach to problem-solving is creative, fun and interesting. Together, we found solutions that were totally out of the box. Thanks GUYS! </q>
                 <p>Maryanne Quincy / RM WINDOW TINT</p>
             </div>
-            <div className='card'>
+            <div className='client-card'>
                 <img src='' alt='section pic'/>
                 <q>Best marketing firm I have ever worked with. Can’t wait for the next project. </q>
                 <p>Renata Bergsman / SOCO HEATING AND COOLING</p>

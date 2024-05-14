@@ -7,26 +7,31 @@
     height: auto;
 }
 
+h2{
+    color: firebrick;
+}
+
 section{
-    height: 720px;
+    padding: 20px 80px;
+    height: 70vh;
     font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 
     h3,h2{
-        color: firebrick;
+        color: #000;
     }
 }
 
 .card_menu{
+    height: 40vh;
     display: flex;
     justify-content: center;
     align-content: center;
     flex-direction: row;
-    padding: 10px 20px;
+    padding: 20px 60px;
 
     .card{
         width: 20em;
         text-align: justify;
-        font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
         padding: 10px 20px;
 
         button{
@@ -43,4 +48,9 @@ section{
             border: none;
         }
     }
+}
+.testimonials{
+    display: flex;
+    flex-direction: row;
+    height: 500px;
 }
