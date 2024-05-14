@@ -12,8 +12,8 @@ function Services() {
 
   const heading = service[parameter].Jumbotron.Heading
   const heading_paragraph = service[parameter].Jumbotron.Paragraph
-  const section_images = service[parameter].Section_A.Images
-  const section_info = service[parameter].Section_A
+  // const section_images = service[parameter].Section_A.Images
+  // const section_info = service[parameter].Section_A
 
   console.log(heading)
   return (
