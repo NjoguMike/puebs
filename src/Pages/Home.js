@@ -26,10 +26,12 @@ function Home() {
                 <img src={landing_image} alt='landing-view' className='jumbo_image'/> 
             </div>
         </Slider>
-        <section>
+        <section className='intro'>
             <h1>Pueblo Seo Brings You the Complete Internet Marketing Package</h1>
-            <p>The internet is changing everything about how we conduct business, connect with people, and even the way that we get our most basic needs met. Every commodity from housing to food to entertainment is found in the online marketplace and the world has decided that convenience is a top priority for where they spend their hard-earned money. If you are in the process of building your audience and trying to take your business to the next level, then you have to be excited about the opportunities available to market your business on the internet.</p>
-            <button>Read More</button>
+            <div className='intro_card'>
+                <p>The internet is changing everything about how we conduct business, connect with people, and even the way that we get our most basic needs met. Every commodity from housing to food to entertainment is found in the online marketplace and the world has decided that convenience is a top priority for where they spend their hard-earned money. If you are in the process of building your audience and trying to take your business to the next level, then you have to be excited about the opportunities available to market your business on the internet.</p>
+                <button>Read More</button>
+            </div>
         </section>
         <section className='card_menu'>
             <div className='card'>
