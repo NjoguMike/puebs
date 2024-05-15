@@ -103,7 +103,46 @@ section{
 }
 
 .testimonials{
-    display: flex;
-    flex-direction: row;
-    height: 500px;
+    height: 60vh;
+    /* width: 50rem; */
+
+    /* .non{
+        column-gap: 20px;
+        justify-content: flex-end;
+        width: 100%;
+    } */
+    .carousel-initialized{
+        display: flex;
+        width: 700px;
+        justify-content: center;
+    }
+
+    .carousel-item{
+        width: 310px !important;
+    }
+
+    .carousel-row{
+        display: flex;
+        justify-content: center;
+        /* width: 310px; */
+        column-gap: 20px;
+    }
+    .client-card{
+        margin: 10px;
+        display: flex !important; 
+        flex-direction: column;
+        justify-content: space-evenly;
+        height: 350px;
+        background-color: whitesmoke;
+        padding: 15px 20px;
+        border: none;
+        border-radius: 8px;
+    
+        img{
+            height: 80px;
+            width: 80px;
+            border-radius: 50%;
+        }
+    }
 }
+
