@@ -1,24 +1,35 @@
 import React from 'react'
 import landing_image from '../Assets/landing_image.jpg'
+import Slider from 'infinite-react-carousel';
 
 function Home() {
+
+    const settings =  {
+        arrows:false,
+        autoplay: true,
+        autoplayScroll: 2,
+        autoplaySpeed: 7000,
+        dots: true,
+        slidesToShow: 1
+      };
+
   return (
     <div className='main'>
-        <main>
-            <img src={landing_image} alt='landing-view' className='jumbo_image'/> 
-        </main>
+        <Slider {...settings}>
+            <div>
+                <img src={landing_image} alt='landing-view' className='jumbo_image'/> 
+            </div>
+            <div>
+                <img src={landing_image} alt='landing-view' className='jumbo_image'/> 
+            </div>
+            <div>
+                <img src={landing_image} alt='landing-view' className='jumbo_image'/> 
+            </div>
+        </Slider>
         <section>
             <h1>Pueblo Seo Brings You the Complete Internet Marketing Package</h1>
             <p>The internet is changing everything about how we conduct business, connect with people, and even the way that we get our most basic needs met. Every commodity from housing to food to entertainment is found in the online marketplace and the world has decided that convenience is a top priority for where they spend their hard-earned money. If you are in the process of building your audience and trying to take your business to the next level, then you have to be excited about the opportunities available to market your business on the internet.</p>
-            <p>Pueblo SEO is an internet marketing firm that can provide you with the complete set of services you need to dominate your local market through online methods. With us, you get incredible web development, SEO <b><em>(search engine optimization)</em></b> services, and insight on how to utilize tools from Google and Facebook. Our focus is on helping businesses here in Pueblo, Colorado use web development techniques to expand their customer base, increase sales, and retain customers for the long haul.</p>
-            <p>For great <b><em>web development</em></b> in Pueblo, Colorado, you need more than just a sleek website design. There are incredible web design teams that focus solely on the way your website looks, but when they are rooted in best SEO practices, mobile-friendly designs, click-to-call, and analytics, they don’t have the ability to reach an audience. Do you really want to spend a bunch of money on a gorgeous site that no one sees? Instead, you can bring us in to boost your ranking for relevant search terms on Google, make your website incredibly user friendly, and actually create sales leads through your online presence. The entire world is using the internet now, so you can take advantage by getting the most advanced internet marketing available. If you would like to discuss the different ways we can give your business a boost, then contact us today to set up a free consultation.</p>
-        </section>
-        <section>
-            <h2>How Web Development Contributes to Sales</h2>
-            <p>​The key to really taking over in your niche for the Pueblo, CO area is complete web development from our expert team. This is more than just creating a great website, but rather about making sure that your website and your entire online presence work cohesively to create sales leads. Our method is tried and true, and we have taken businesses to the first page of Google for relevant search terms to their business, developed great ad campaigns on Facebook and Google, and created websites that funnel those new potential customers directly to you.</p>
-            <p>When creating your web design, we make sure that the first thing we do is make it visible to the people that are looking for your services. Search engine optimization is the process by which we make your business friendly to the most popular search engines. With our tried and true methods of creating designs and content that boost your ranking on Google and other search engines, we create new eyes for your website right away.</p>
-            <p>In addition to using your website development to increase the visibility of your site, we also make sure that your website is conducive to getting sales leads. For starters, we create web designs that are mobile-friendly, because so much of the market right now is determined by people searching for things on their smartphones. Additionally, we use analytics, click-to-call buttons, and contact forms to gather information and get you directly in touch with the people that need your business. When we combine these methods, you will see the number of sales leads for your business shoot through the roof. Calls are coming in, contact information is coming in for you to directly respond, and your business is now easier than ever to find online. https://gonzy.com/</p>
-            <p>Call us right now and you can set up a free appointment to meet with us about the potential that our SEO web development strategy has for boosting your business. It is a risk free consultation that we are certain will give you the inspiration to take your business to the next level through top of the line internet marketing.</p>
+            <button>Read More</button>
         </section>
         <section className='card_menu'>
             <div className='card'>
@@ -36,6 +47,13 @@ function Home() {
                 <p>Want a social media campaign that knocks people’s socks off? Well, so do we, and we know just what needs to happen to make that a reality. We’ll help you unlock the potential of your brand, and infuse it in all the right channels. </p>
                 <button>READ MORE</button>
             </div>
+        </section>
+        <section>
+            <h2>How Web Development Contributes to Sales</h2>
+            <p>​The key to really taking over in your niche for the Pueblo, CO area is complete web development from our expert team. This is more than just creating a great website, but rather about making sure that your website and your entire online presence work cohesively to create sales leads. Our method is tried and true, and we have taken businesses to the first page of Google for relevant search terms to their business, developed great ad campaigns on Facebook and Google, and created websites that funnel those new potential customers directly to you.</p>
+            <p>When creating your web design, we make sure that the first thing we do is make it visible to the people that are looking for your services. Search engine optimization is the process by which we make your business friendly to the most popular search engines. With our tried and true methods of creating designs and content that boost your ranking on Google and other search engines, we create new eyes for your website right away.</p>
+            <p>In addition to using your website development to increase the visibility of your site, we also make sure that your website is conducive to getting sales leads. For starters, we create web designs that are mobile-friendly, because so much of the market right now is determined by people searching for things on their smartphones. Additionally, we use analytics, click-to-call buttons, and contact forms to gather information and get you directly in touch with the people that need your business. When we combine these methods, you will see the number of sales leads for your business shoot through the roof. Calls are coming in, contact information is coming in for you to directly respond, and your business is now easier than ever to find online. https://gonzy.com/</p>
+            <p>Call us right now and you can set up a free appointment to meet with us about the potential that our SEO web development strategy has for boosting your business. It is a risk free consultation that we are certain will give you the inspiration to take your business to the next level through top of the line internet marketing.</p>
         </section>
         <section>
             <h2>The Best SEO Services in Pueblo, com</h2>
