@@ -38,9 +38,12 @@ function Home() {
         <section className='intro'>
             <div className='intro_card'>
                 <h1>What Pueblo brings You!</h1>
-                <p>The internet is changing everything about how we conduct business, connect with people, and even the way that we get our most basic needs met. Every commodity from housing to food to entertainment is found in the online marketplace and the world has decided that convenience is a top priority for where they spend their hard-earned money. If you are in the process of building your audience and trying to take your business to the next level, then you have to be excited about the opportunities available to market your business on the internet. Every single project we launch here at Pueblo marketing begins with a thorough, often intense planning process. We involve as many of our in-house experts as needed to ensure that your plan is sound and successful.</p>
-            </div>
+                <p>All of the search engines that people regularly use are using algorithms to determine which websites are most relevant to the search term that they are using. What our team does, is make sure that we have a complete understanding of how those algorithms work, and then we use your website and social media accounts to make sure that your business is the most relevant place for Google to send people for search terms that relate to your field. When people google to find the “best Mexican restaurant” there may actually be several around them that they don’t notice right away in the search results. With our strategy, we would make sure that restaurant is able to be seen right there on the first page of results, so that you do not miss out on any potential customers. If you are in the process of building your audience and trying to take your business to the next level, then you have to be excited about the opportunities available to market your business on the internet. Every single project we launch here at Pueblo marketing begins with a thorough, often intense planning process. We involve as many of our in-house experts as needed to ensure that your plan is sound and successful.</p>
             <button>Read More</button>
+            </div>
+            <div>
+                <img src={landing_image2} alt='landing-view' className='jumbo_image'/> 
+            </div>
         </section>
         <section className='card_menu'>
             <div className='card'>
@@ -60,11 +63,15 @@ function Home() {
             </div>
         </section>
         <section>
-            <h2>Web Development contribution to Sales</h2>
-            <p>​The key to really taking over in your niche for the Pueblo, CO area is complete web development from our expert team. This is more than just creating a great website, but rather about making sure that your website and your entire online presence work cohesively to create sales leads. Our method is tried and true, and we have taken businesses to the first page of Google for relevant search terms to their business, developed great ad campaigns on Facebook and Google, and created websites that funnel those new potential customers directly to you.</p>
-            <p>Call us right now and you can set up a free appointment to meet with us about the potential that our SEO web development strategy has for boosting your business. It is a risk free consultation that we are certain will give you the inspiration to take your business to the next level through top of the line internet marketing.</p>
+            <img src='' alt='client pic'/>
+            <div>
+                <h3>SEO Services in Pueblo</h3>
+                <p>If you have spent time looking into your marketing strategy in 2018 then you might have heard SEO thrown around a lot by peers as well as seen it online when looking for marketing services. SEO simply stands for <b>Search Engine Optimization</b>. Think about it, when you are looking for a restaurant, a plumber, a tow truck, or really just about any information, where do you go? Google is the juggernaut but even people that don’t use google use a search engine of some kind to get information. Search engine optimization is the scientific process that we use to boost your presence on search engine results in the area of your business.</p>
+                <p>All of the search engines that people regularly use are using algorithms to determine which websites are most relevant to the search term that they are using. What our team does, is make sure that we have a complete understanding of how those algorithms work, and then we use your website and social media accounts to make sure that your business is the most relevant place for Google to send people for search terms that relate to your field. When people google to find the “best Mexican restaurant” there may actually be several around them that they don’t notice right away in the search results. With our strategy, we would make sure that restaurant is able to be seen right there on the first page of results, so that you do not miss out on any potential customers.</p>
+            </div>
         </section>
         <section className='testimonials'>
+            <h2>What our clients think!</h2>
             <Slider {...testimonialSettings} className='non'>
                 <div className='client-card'>
                     <img src={profile} alt='client pic'/>
@@ -84,13 +91,7 @@ function Home() {
             </Slider>
         </section>
         <section>
-            <img src='' alt='client pic'/>
-            <div>
-                <h3>Facebook Ads Are Your Friend</h3>
-                <p>One of the most visited sites on the entirety of the internet is Facebook. Facebook has so many users that the impact you can have on the social media juggernaut is undeniable. Unfortunately, many people waste money advertising on Facebook because they do not know how to utilize Facebook Ads to generate sales. Even though you get a presence boost from creating a Facebook Ad, if you do not have the right plan for your ad and using it to generate sales leads, it will all be for naught. Pueblo SEO will work with you to create <b>Facebook Ads in Pueblo</b>, Colorado that are properly targeted and use the analytics from those ads to generate sales for your business in the future.</p>
-            </div>
-        </section>
-        <section>
+            <p>There are many things involved in utilizing SEO to boost your business, but if you give us a call we can set up a consultation to provide you with a complete view of our plan for you. Contact us today to learn more about utilizing best SEO practices for your business in Pueblo, CO. If you are located in Colorado springs please check out or Colorado Springs SEO company they can help with any Search engine optimization you may need.</p>
             <p>With <b>Pueblo SEO</b>, you get a team that understands the ins and outs of <b>internet marketing</b> and <b>web development</b> and will utilize all available tools to make sure that you are successful in generating sales leads so that you can grow your business. Our team is ready to put together a personalized plan for your business when you call us today and set up a free consultation. We look forward to helping you generate sales through revolutionary online marketing.</p>
         </section>
     </div>
