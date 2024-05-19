@@ -1,4 +1,4 @@
-#root {
+body {
   box-sizing: border-box;
   margin: 0;
   padding: 0;
@@ -48,4 +48,36 @@
 .dropdown:hover .dropdown-content{
   display: block;
   z-index: 0;
+}
+
+.footer{
+  background-color: rgb(25, 80, 85);
+  color: #fff;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 40px;
+
+  .footer-container{
+    display: inherit;
+    flex-direction: row;
+    justify-content: space-between;
+    padding: 20px;
+    width: 100%;
+
+    .navigation{
+      text-align: end;
+
+      ul{
+        display: flex;
+        flex-direction: column;
+        justify-content: flex-end;
+
+        a:hover{
+          color: #fff;
+        }
+      }
+    }
+  }
 }
