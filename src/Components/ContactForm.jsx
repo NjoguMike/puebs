@@ -2,7 +2,16 @@ import React from 'react'
 
 function ContactForm() {
   return (
-    <form className='contact-form'>
+    <div className='our-contacts'>
+      <div className='contact-info'>
+        <div>
+          <p>Puelbo Colorado <br/> Mail: badassmarketers@gmail.com <br/> Phone: 719-628-1673</p>
+        </div>
+        <span>Facebook</span><br/>
+        <span>Instagram</span><br/>
+        <span>Youtube</span>
+      </div>
+      <form className='contact-form'>
         <label htmlFor='name'>Name</label>
         <input id='name' type='text' name='name' />
         <label htmlFor='email'>Email</label>
@@ -12,7 +21,9 @@ function ContactForm() {
         <label htmlFor='description'>How can we help?</label>
         <input id='description' type='text-area' name='text' />
         <button>Let's Chat!</button>
-    </form>
+      </form>
+    </div>
+
   )
 }
 
