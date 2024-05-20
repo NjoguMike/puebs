@@ -1,6 +1,5 @@
 import React from 'react'
 import landing_image from '../Assets/landing_image.jpg'
-import landing_main from '../Assets/landi.jpg'
 import landing_image2 from '../Assets/landing_image2.jpg'
 import profile from '../Assets/profile.jpg'
 import profile_2 from '../Assets/profile_2.jpg'
@@ -9,14 +8,14 @@ import Slider from 'infinite-react-carousel';
 
 function Home() {
 
-    const settings =  {
-        arrows:false,
-        autoplay: true,
-        autoplayScroll: 1,
-        autoplaySpeed: 7000,
-        dots: true,
-        slidesToShow: 1
-      };
+    // const settings =  {
+    //     arrows:false,
+    //     autoplay: true,
+    //     autoplayScroll: 1,
+    //     autoplaySpeed: 7000,
+    //     dots: true,
+    //     slidesToShow: 1
+    //   };
     const testimonialSettings = {
         arrows:false,
         slidesToShow: 2
@@ -24,25 +23,17 @@ function Home() {
 
   return (
     <div className='main'>
-        <Slider {...settings}>
-            <div>
-                <img src={landing_main} alt='landing-view' className='jumbo_image'/> 
-            </div>
-            <div>
-                <img src={landing_image} alt='landing-view' className='jumbo_image'/> 
-            </div>
-            <div>
-                <img src={landing_image2} alt='landing-view' className='jumbo_image'/> 
-            </div>
-        </Slider>
+        <section className='landing'>
+            <img src={landing_image} alt='landing-view' className='jumbo_image'/> 
+        </section>
         <section className='intro'>
             <div className='intro_card'>
                 <h1>What Pueblo brings You!</h1>
                 <p>All of the search engines that people regularly use are using algorithms to determine which websites are most relevant to the search term that they are using. What our team does, is make sure that we have a complete understanding of how those algorithms work, and then we use your website and social media accounts to make sure that your business is the most relevant place for Google to send people for search terms that relate to your field. When people google to find the “best Mexican restaurant” there may actually be several around them that they don’t notice right away in the search results. With our strategy, we would make sure that restaurant is able to be seen right there on the first page of results, so that you do not miss out on any potential customers. If you are in the process of building your audience and trying to take your business to the next level, then you have to be excited about the opportunities available to market your business on the internet. Every single project we launch here at Pueblo marketing begins with a thorough, often intense planning process. We involve as many of our in-house experts as needed to ensure that your plan is sound and successful.</p>
-            <button>Read More</button>
             </div>
-            <div>
-                <img src={landing_image2} alt='landing-view' className='jumbo_image'/> 
+            <div className='intro_image'>
+                <img src={landing_image2} alt='landing-view' className='jumbo_image'/>
+                <button>Read More</button>
             </div>
         </section>
         <section className='card_menu'>
