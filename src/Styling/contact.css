@@ -26,6 +26,10 @@
     background-position: center;
     background-repeat: no-repeat;
 
+        span{
+            margin: 5px;
+        }
+
         form{
         display: flex;
         flex-direction: column;

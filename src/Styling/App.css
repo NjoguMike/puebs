@@ -66,6 +66,16 @@ body {
     padding: 20px;
     width: 100%;
 
+    .socials{
+      display: flex;
+      flex-direction: column;
+      justify-content: flex-end;
+
+      span{
+        margin: 5px;
+      }
+    } 
+
     .navigation{
       text-align: end;
 

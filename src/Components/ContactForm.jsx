@@ -1,15 +1,16 @@
 import React from 'react'
+import { FaFacebook, FaInstagram, FaYoutube } from "react-icons/fa";
 
 function ContactForm() {
   return (
     <div className='our-contacts'>
       <div className='contact-info'>
         <div>
-          <p>Puelbo Colorado <br/> Mail: badassmarketers@gmail.com <br/> Phone: 719-628-1673</p>
+          <p>Reach us on <br/> Mail: badassmarketers@gmail.com <br/> Phone: 719-628-1673</p>
         </div>
-        <span>Facebook</span><br/>
-        <span>Instagram</span><br/>
-        <span>Youtube</span>
+        <span><FaFacebook /></span>
+        <span><FaInstagram /></span>
+        <span><FaYoutube /></span>
       </div>
       <form className='contact-form'>
         <label htmlFor='name'>Name</label>
