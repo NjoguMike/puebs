@@ -34,10 +34,10 @@ function Home() {
             <div className='intro_card'>
                 <h1>What Pueblo brings You!</h1>
                 <p>All of the search engines that people regularly use are using algorithms to determine which websites are most relevant to the search term that they are using. What our team does, is make sure that we have a complete understanding of how those algorithms work, and then we use your website and social media accounts to make sure that your business is the most relevant place for Google to send people for search terms that relate to your field. When people google to find the “best Mexican restaurant” there may actually be several around them that they don’t notice right away in the search results. With our strategy, we would make sure that restaurant is able to be seen right there on the first page of results, so that you do not miss out on any potential customers. If you are in the process of building your audience and trying to take your business to the next level, then you have to be excited about the opportunities available to market your business on the internet. Every single project we launch here at Pueblo marketing begins with a thorough, often intense planning process. We involve as many of our in-house experts as needed to ensure that your plan is sound and successful.</p>
+                <button>Read More</button>
             </div>
             <div className='intro_image'>
                 <img src={landing_image2} alt='landing-view' className='jumbo_image'/>
-                <button>Read More</button>
             </div>
         </section>
         <section className='card_menu'>
