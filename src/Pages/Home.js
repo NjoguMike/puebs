@@ -1,24 +1,19 @@
 import React from 'react'
 import landing_image from '../Assets/landing_image.jpg'
 import landing_image2 from '../Assets/landing_image2.jpg'
+import services_image from '../Assets/services_image.jpg'
 import profile from '../Assets/profile.jpg'
 import profile_2 from '../Assets/profile_2.jpg'
 import profile_3 from '../Assets/profile_3.jpg'
 import Slider from 'infinite-react-carousel';
 
 function Home() {
-
-    // const settings =  {
-    //     arrows:false,
-    //     autoplay: true,
-    //     autoplayScroll: 1,
-    //     autoplaySpeed: 7000,
-    //     dots: true,
-    //     slidesToShow: 1
-    //   };
     const testimonialSettings = {
         arrows:false,
-        slidesToShow: 2
+        slidesToShow: 1,
+        autoplay:true,
+        autoplayScroll: 1,
+        autoplaySpeed: 7000,
     }
 
   return (
@@ -57,11 +52,14 @@ function Home() {
                 <button>READ MORE</button>
             </div>
         </section>
-        <section>
-            <div>
+        <section className='intro'>
+            <div className='intro_card'>
                 <h3>SEO Services in Pueblo</h3>
                 <p>If you have spent time looking into your marketing strategy in 2018 then you might have heard SEO thrown around a lot by peers as well as seen it online when looking for marketing services. SEO simply stands for <b>Search Engine Optimization</b>. Think about it, when you are looking for a restaurant, a plumber, a tow truck, or really just about any information, where do you go? Google is the juggernaut but even people that don’t use google use a search engine of some kind to get information. Search engine optimization is the scientific process that we use to boost your presence on search engine results in the area of your business.</p>
                 <p>All of the search engines that people regularly use are using algorithms to determine which websites are most relevant to the search term that they are using. What our team does, is make sure that we have a complete understanding of how those algorithms work, and then we use your website and social media accounts to make sure that your business is the most relevant place for Google to send people for search terms that relate to your field. When people google to find the “best Mexican restaurant” there may actually be several around them that they don’t notice right away in the search results. With our strategy, we would make sure that restaurant is able to be seen right there on the first page of results, so that you do not miss out on any potential customers.</p>
+            </div>
+            <div className='intro_image'>
+                <img src={services_image} alt='landing-view' className='jumbo_image'/>
             </div>
         </section>
         <section className='testimonials'>

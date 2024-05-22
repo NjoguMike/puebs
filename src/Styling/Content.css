@@ -14,7 +14,7 @@ h2{
 section{
     /* padding: 40px 120px; */
     position: relative;
-    height: 90vh;
+    /* height: 90vh; */
     font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 
 }
@@ -63,7 +63,8 @@ section{
     flex-direction: row;
     justify-content: center;
     flex-wrap: wrap;
-    row-gap: 40px;
+    /* row-gap: 60px; */
+    column-gap: 60px;
     padding: 15px 25px;
     height: 100%;
     margin-bottom: 25px;
@@ -97,14 +98,15 @@ section{
 
     .intro_image{
         display: flex;
-        justify-content: center;
+        justify-content: flex-start;
         align-items: center;
-        width: 28%;
+        width: 40rem;
+        padding: 80px 0;
 
         img{
             border-radius: 12px;
-            height: 15rem;
-            width: auto;
+            height: auto;
+            width: 100%;
         }
     }
 
@@ -118,7 +120,7 @@ section{
     flex-wrap: wrap;
     row-gap: 30px;
     padding: 20px 40px;
-    background-image: url("../Assets/landing_image2.jpg");
+    background-image: url("../Assets/services.webp");
     color: #fff;
     background-attachment: fixed;
     background-position: center;
@@ -159,10 +161,13 @@ section{
     } */
 }
 
-
+.services{
+    display: flex;
+    flex-direction: row;
+}
 
 .testimonials{
-    height: 50vh;
+    height: auto;
     background-image: url("../Assets/landing_image2.jpg");
     color: #fff;
     text-align: center;
