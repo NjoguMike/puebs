@@ -23,9 +23,13 @@ function Home() {
 
   return (
     <div className='main'>
-        <section className='landing'>
-            <img src={landing_image} alt='landing-view' className='jumbo_image'/> 
-        </section>
+        <main className='landing'>
+            <img src={landing_image} alt='landing'/>
+            <div className='landing_head'>
+                <h1>Pueblo SEO</h1>
+                <button> Explore </button>
+            </div>
+        </main>
         <section className='intro'>
             <div className='intro_card'>
                 <h1>What Pueblo brings You!</h1>
@@ -54,7 +58,6 @@ function Home() {
             </div>
         </section>
         <section>
-            <img src='' alt='client pic'/>
             <div>
                 <h3>SEO Services in Pueblo</h3>
                 <p>If you have spent time looking into your marketing strategy in 2018 then you might have heard SEO thrown around a lot by peers as well as seen it online when looking for marketing services. SEO simply stands for <b>Search Engine Optimization</b>. Think about it, when you are looking for a restaurant, a plumber, a tow truck, or really just about any information, where do you go? Google is the juggernaut but even people that don’t use google use a search engine of some kind to get information. Search engine optimization is the scientific process that we use to boost your presence on search engine results in the area of your business.</p>
