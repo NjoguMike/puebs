@@ -6,10 +6,6 @@
     width: 100%;
     height: auto;
 }
-/* 
-h2{
-    color: firebrick;
-} */
 
 section{
     position: relative;
@@ -19,7 +15,6 @@ section{
     h1{
         color: #0AA2C0;
     }
-
 }
 
 .landing{

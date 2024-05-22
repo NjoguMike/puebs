@@ -1,0 +1,74 @@
+.about{
+    margin-top: -20px;
+
+    .header{
+        display: flex;
+        flex-direction: column;
+
+
+        h1{
+            display: flex;
+            justify-content: flex-start;
+            align-items: center;
+            padding: 10px 40px;
+            font-size: 24px;
+            min-height: 80px;
+            background-image: url("../Assets/landing_image2.jpg");
+            color: #fff;
+            background-attachment: fixed;
+            background-position: center;
+            background-repeat: no-repeat;
+            background-size: cover;
+        }
+
+    }
+
+    .team{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+
+        h1{
+            color: #0AA2C0;
+        }
+
+        .team_container{
+            height: auto;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            flex-direction: row;
+            flex-wrap: wrap;
+            row-gap: 30px;
+            padding: 100px 40px;
+        
+            .team_card{
+                display: inherit;
+                flex-direction: column;
+                justify-content: center;
+                align-items: center;
+                border: none;
+                border-radius: 10px;
+                box-shadow: 0px 0px 2.4rem #29292934;
+                width: 18rem;
+                height: 20rem;
+                background-color: rgba(228, 228, 228, 0.473);
+                padding: 20px 40px;
+                font-size: .9rem;
+                margin: 10px 15px;
+                
+                img{
+                    height: 80px;
+                    width: 80px;
+                    border-radius: 50%;
+                }
+            }
+            /* .team_card:hover{
+                transition: .8s ease-in-out;
+                width: 19rem;
+                height: 21rem;
+            } */
+        }
+    } 
+}

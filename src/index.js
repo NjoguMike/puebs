@@ -3,6 +3,7 @@ import ReactDOM from 'react-dom/client';
 import { BrowserRouter } from 'react-router-dom';
 import '../src/Styling/Content.css';
 import '../src/Styling/App.css';
+import '../src/Styling/About.css';
 import '../src/Styling/contact.css';
 import App from './App';
 
