@@ -54,7 +54,7 @@ function Home() {
         </section>
         <section className='intro'>
             <div className='intro_card'>
-                <h3>SEO Services in Pueblo</h3>
+                <h1>SEO Services in Pueblo</h1>
                 <p>If you have spent time looking into your marketing strategy in 2018 then you might have heard SEO thrown around a lot by peers as well as seen it online when looking for marketing services. SEO simply stands for <b>Search Engine Optimization</b>. Think about it, when you are looking for a restaurant, a plumber, a tow truck, or really just about any information, where do you go? Google is the juggernaut but even people that don’t use google use a search engine of some kind to get information. Search engine optimization is the scientific process that we use to boost your presence on search engine results in the area of your business.</p>
                 <p>All of the search engines that people regularly use are using algorithms to determine which websites are most relevant to the search term that they are using. What our team does, is make sure that we have a complete understanding of how those algorithms work, and then we use your website and social media accounts to make sure that your business is the most relevant place for Google to send people for search terms that relate to your field. When people google to find the “best Mexican restaurant” there may actually be several around them that they don’t notice right away in the search results. With our strategy, we would make sure that restaurant is able to be seen right there on the first page of results, so that you do not miss out on any potential customers.</p>
             </div>
@@ -62,9 +62,15 @@ function Home() {
                 <img src={services_image} alt='landing-view' className='jumbo_image'/>
             </div>
         </section>
-        <section className='testimonials'>
-            <h2>What our clients think!</h2>
-            <Slider {...testimonialSettings} className='non'>
+        <div className='call_to_action'>
+            {/* <p>There are many things involved in utilizing SEO to boost your business, but if you give us a call we can set up a consultation to provide you with a complete view of our plan for you. Contact us today to learn more about utilizing best SEO practices for your business in Pueblo, CO. If you are located in Colorado springs please check out or Colorado Springs SEO company they can help with any Search engine optimization you may need.</p> */}
+        </div>
+        <section className='outro'>
+            <div className='intro_card'>
+                <h1>What our clients think</h1>
+                <p>With <b>Pueblo SEO</b>, you get a team that understands the ins and outs of <b>internet marketing</b> and <b>web development</b> and will utilize all available tools to make sure that you are successful in generating sales leads so that you can grow your business. Our team is ready to put together a personalized plan for your business when you call us today and set up a free consultation. We look forward to helping you generate sales through revolutionary online marketing.</p>
+            </div>
+            <Slider {...testimonialSettings} className='testimonials'>
                 <div className='client-card'>
                     <img src={profile} alt='client pic'/>
                     <q>Working with PUEBLO SE was a pleasure. Our PR team helped us stretch our thinking and found us new opportunities for growth. It was an amazing experience. </q>
@@ -81,10 +87,6 @@ function Home() {
                     <p>Renata Bergsman / SOCO HEATING AND COOLING</p>
                 </div>
             </Slider>
-        </section>
-        <section>
-            <p>There are many things involved in utilizing SEO to boost your business, but if you give us a call we can set up a consultation to provide you with a complete view of our plan for you. Contact us today to learn more about utilizing best SEO practices for your business in Pueblo, CO. If you are located in Colorado springs please check out or Colorado Springs SEO company they can help with any Search engine optimization you may need.</p>
-            <p>With <b>Pueblo SEO</b>, you get a team that understands the ins and outs of <b>internet marketing</b> and <b>web development</b> and will utilize all available tools to make sure that you are successful in generating sales leads so that you can grow your business. Our team is ready to put together a personalized plan for your business when you call us today and set up a free consultation. We look forward to helping you generate sales through revolutionary online marketing.</p>
         </section>
     </div>
   )
