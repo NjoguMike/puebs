@@ -1,5 +1,6 @@
 import React from 'react'
 import ContactForm from '../Components/ContactForm'
+import Contacts from '../Components/Contacts'
 
 function Contact() {
   return (
@@ -10,8 +11,9 @@ function Contact() {
       </div>
       <div className='contact-form'>
         <p>Call us right now and you can set up a free appointment to meet with us about the potential that our SEO web development strategy has for boosting your business. It is a risk free consultation that we are certain will give you the inspiration to take your business to the next level through top of the line internet marketing.</p>
+        <ContactForm />
       </div>
-      <ContactForm />
+      <Contacts/>
     </div>
   )
 }

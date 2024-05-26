@@ -1,7 +1,7 @@
 import React from 'react'
 import { useParams } from "react-router-dom";
-import ServiceFooter from '../Components/services_footer'
 import data1 from "../PageData.json"
+import Contacts from '../Components/Contacts';
 
 function Services() {
 
@@ -25,7 +25,7 @@ function Services() {
       <div>
         <img src="" alt=''/>
       </div>
-      <ServiceFooter />
+      <Contacts/>
     </div>
   )
 }
