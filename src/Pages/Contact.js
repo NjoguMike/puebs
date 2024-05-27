@@ -10,7 +10,7 @@ function Contact() {
         <p>We’d love to hear about your digital marketing needs. To do so, please fill in this contact form and we’ll get right back to you.</p>
       </div>
       <div className='contact-form'>
-        <p>Call us right now and you can set up a free appointment to meet with us about the potential that our SEO web development strategy has for boosting your business. It is a risk free consultation that we are certain will give you the inspiration to take your business to the next level through top of the line internet marketing.</p>
+        <q>Call us right now and you can set up a free appointment to meet with us about the potential that our SEO web development strategy has for boosting your business. It is a risk free consultation that we are certain will give you the inspiration to take your business to the next level through top of the line internet marketing.</q>
         <ContactForm />
       </div>
       <Contacts/>
