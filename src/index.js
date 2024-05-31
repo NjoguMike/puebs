@@ -5,6 +5,7 @@ import '../src/Styling/Content.css';
 import '../src/Styling/App.css';
 import '../src/Styling/About.css';
 import '../src/Styling/contact.css';
+import '../src/Styling/Service.css';
 import App from './App';
 
 const root = ReactDOM.createRoot(document.getElementById('root'));

@@ -1,10 +1,10 @@
-import React from 'react'
+import { Fragment } from 'react'
 import ContactForm from '../Components/ContactForm'
 import Contacts from '../Components/Contacts'
 
 function Contact() {
   return (
-    <div>
+    <Fragment>
       <div className='contact'>
         <h2>OUR CONTACT INFO</h2>
         <p>We’d love to hear about your digital marketing needs. To do so, please fill in this contact form and we’ll get right back to you.</p>
@@ -14,7 +14,7 @@ function Contact() {
         <ContactForm />
       </div>
       <Contacts/>
-    </div>
+    </Fragment>
   )
 }
 

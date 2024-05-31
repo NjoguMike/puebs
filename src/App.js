@@ -5,6 +5,7 @@ import Services from './Pages/Services';
 import Contact from './Pages/Contact';
 import Navbar from './Components/Navbar'
 import Footer from './Components/Footer'
+import Service from './Components/Service';
 
 
 function App() {
@@ -16,13 +17,7 @@ function App() {
         <Route index element={<Home/>}/>
         <Route path='/about' element={<About />} />
         <Route path='/services' element={<Services />} />
-        <Route path='/services/:serviceId' element={<Services />}>
-            <Route path='seo' element={<Services />} />
-            <Route path='web_design' element={<Services />} />
-            <Route path='local_map_listing' element={<Services />} />
-            <Route path='social_media_ads' element={<Services />} />
-            <Route path='google_ads' element={<Services />} />
-        </Route>
+        <Route path='/services/:serviceId' element={<Service />} />
         <Route path='/contact' element={<Contact />} />
       </Routes>
       <Footer />
