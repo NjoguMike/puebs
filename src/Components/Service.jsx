@@ -15,6 +15,9 @@ function Service() {
   // const section_images = service[parameter].Section_A.Images
   // const section_info = service[parameter].Section_A
 
+  const data = data1.filter((serv) => serv[parameter])
+  console.log(data)
+
   return (
     <div className='services_container'>
       <div>
