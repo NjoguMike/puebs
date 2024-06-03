@@ -4,101 +4,108 @@
             "Heading":"SERVICES",
             "Paragraph":"We take a holistic approach to each and every project, employing all the pulling out all the stops to ensure that your project runs smoothand achieves the best results. "
         },
-        "Section_A":{
-            "Images":[],
-            "Data_1":{
+        "Section_A":[
+            {
+                "Data_1":{
                 "Heading_2":"STRATEGY",
-                "Paragraph":"Every single project we launch here at AA marketing is the culmination of a thorough and intense planning process. We involve anyone on our team that can contribute to the strategy process - from designers and communication planners to search strategists and management consultants. In our work process, we involve anyone who can contribute positively to the process, so that when we put your strategy in action, you know it’s been planned to perfection."
+                "Paragraph":"Every single project we launch here at AA marketing is the culmination of a thorough and intense planning process. We involve anyone on our team that can contribute to the strategy process - from designers and communication planners to search strategists and management consultants. In our work process, we involve anyone who can contribute positively to the process, so that when we put your strategy in action, you know it’s been planned to perfection."}
             },
+            {
             "Data_2":{
                 "Heading_2":"MEDIA BUYING",
-                "Paragraph":"Having a perfect pitch won’t do you any good if it isn’t pitched in just the right places. And with the plethora of mediums out there today, you need an expert (or three) on your side to help ensure that the message is conveyed at just the right time and place. Our media buying experts specialize in ensuring that every digital dollar you spent contributes to your overall goal, and we audit our process at every stage to ensure that your campaign remains as relevant on its twentieth day as it was on its first day."
+                "Paragraph":"Having a perfect pitch won’t do you any good if it isn’t pitched in just the right places. And with the plethora of mediums out there today, you need an expert (or three) on your side to help ensure that the message is conveyed at just the right time and place. Our media buying experts specialize in ensuring that every digital dollar you spent contributes to your overall goal, and we audit our process at every stage to ensure that your campaign remains as relevant on its twentieth day as it was on its first day."}
             },
+            {
             "Data_3":{
                 "Heading_2":"SOCIAL",
-                "Paragraph":"Want a social media campaign that knocks people’s socks off? Well, so do we, and we know just what needs to happen to make that a reality. We’ll help you to unlock the potential of your brand, and inject it in all the right channels. Together, we’ll reach your customers at the most opportune time and place, whether this means through their Facebook feeds and Instagram accounts, or through a perfectly executive guerilla marketing campaign. "
-            }
+                "Paragraph":"Want a social media campaign that knocks people’s socks off? Well, so do we, and we know just what needs to happen to make that a reality. We’ll help you to unlock the potential of your brand, and inject it in all the right channels. Together, we’ll reach your customers at the most opportune time and place, whether this means through their Facebook feeds and Instagram accounts, or through a perfectly executive guerilla marketing campaign."}
         }
+    ]
     }},
     {"seo":{
         "Jumbotron":{
             "Heading":"How Best SEO Practices in Pueblo, CO Works",
             "Paragraph":"If you have not yet been introduced to what SEO marketing is, then allow us to show you the path to your future in dominating your local market. Search Engine Optimization is the way that our team makes sure that your website, social media presence, advertising and all other online presence is geared towards getting eyes on your business. The internet is a great tool for business, but the algorithms for search engines like Google are complicated. So, many people pay for a website to be designed, but when no one can see your beautiful website, it really doesn’t make an impact on your bottom line. /n Instead of focusing on just the visual aspects, our team of skilled SEO marketing gurus are able to design your website in a way that boosts your ranking on Google for relevant search terms. Getting eyes on your website is the very first step in making it possible for you to secure more sales. From our time researching and practicing the best SEO methods for web design, advertising, and content creation, we know exactly what Google and other influential search engines want. If you are looking for an opportunity to connect with the audience that is out there waiting for your products and services, then SEO marketing and web design is the way to go."
         },
-        "Section_A":{
-            "Images":[],
-            "Data_1":{
+        "Section_A":[
+            {
+                "Data_1":{
                 "Heading_2":"​Well Rounded SEO Services That Keep the Big Picture in Mind",
-                "Paragraph":"​Search engine optimization is a process that requires a holistic approach to online tools like Google, Facebook, and your own web design. When we talk about optimizing for search engines, we are focusing on what it will take to make every piece of online real estate most impactful. There are definitely people in your area right now that would use your business as their go to for all the services that you provide if they knew you were there. People are using their smartphones and Google to search for goods and services more than ever before, and that is not a trend that is moving anywhere but forward. If you can get your page on the first page of results for relevant search terms, the clicks on to your website are going to start booming."
+                "Paragraph":"​Search engine optimization is a process that requires a holistic approach to online tools like Google, Facebook, and your own web design. When we talk about optimizing for search engines, we are focusing on what it will take to make every piece of online real estate most impactful. There are definitely people in your area right now that would use your business as their go to for all the services that you provide if they knew you were there. People are using their smartphones and Google to search for goods and services more than ever before, and that is not a trend that is moving anywhere but forward. If you can get your page on the first page of results for relevant search terms, the clicks on to your website are going to start booming."}
             },
+            {
             "Data_2":{
                 "Heading_2":"OUR BALANCED APPROACH",
-                "Paragraph":"Our balanced and complete SEO web design, content, and marketing strategy is a guaranteed method of making sure that you connect to the desired audience. We have the technical skills to take your business from wherever you are on the results page straight to the top which is something that converts into sales. Making sure that you are seen is more than half the battle in the modern market, so if you are not getting the results that you need from your current online marketing strategies, we can help you fix it. Contact us today to set up a free consultation for our SEO marketing services in Pueblo, CO."
+                "Paragraph":"Our balanced and complete SEO web design, content, and marketing strategy is a guaranteed method of making sure that you connect to the desired audience. We have the technical skills to take your business from wherever you are on the results page straight to the top which is something that converts into sales. Making sure that you are seen is more than half the battle in the modern market, so if you are not getting the results that you need from your current online marketing strategies, we can help you fix it. Contact us today to set up a free consultation for our SEO marketing services in Pueblo, CO."}
             }
-        }
+        ]
     }},
     {"web_design":{
         "Jumbotron":{
             "Heading":"Smart Web Development Focused on Generating Sales",
             "Paragraph":"Utilizing the best SEO practices, creating a mobile friendly design, and making sure that your site is designed to pull people in to contacting your business is crucial. Allowing customers the opportunity to see you and contact you conveniently is the first big step towards building up your audience and being able to make more sales. Obviously, we put a lot of time and effort into making your web design look professional and up-to-date, but the biggest impact that we make for your business is by generating leads for you to convert into sales."
         },
-        "Section_A":{
-            "Images":[],
-            "Data_1":{
+        "Section_A":[
+            {
+                "Data_1":{
                 "Heading_2":"​Pueblo SEO Puts Your Website to Work for You",
-                "Paragraph":"What does it mean to have a website development that is really working for you? It means that the way we create your website and curate your entire online presence is designed to get real sales results. This is something that Pueblo SEO has perfected to a science, and we know exactly what it takes to boost your online presence as well as give you access to new potential customers. In addition to using your website development to increase the visibility of your site, we also make sure that your website is conducive to getting sales leads"
+                "Paragraph":"What does it mean to have a website development that is really working for you? It means that the way we create your website and curate your entire online presence is designed to get real sales results. This is something that Pueblo SEO has perfected to a science, and we know exactly what it takes to boost your online presence as well as give you access to new potential customers. In addition to using your website development to increase the visibility of your site, we also make sure that your website is conducive to getting sales leads"}
             },
+            {
             "Data_2":{
                 "Heading_2":"MEDIA BUYING",
-                "Paragraph":"Our goal is to boost your online presence through targeted marketing and SEO services as well as making your website development strategic for generating leads. With contact forms, analytics, and simple click-to-call design features, we can make sure that people not only see you, but are able to connect with you conveniently. As we develop your online presence and create the funnels for customers to get directly to you, you will see more opportunities are available in your area than you ever realized. The best part is that you will be able to see exactly how you can best serve your clients and build a strategy that is useful for years to come. Call us today to set up a free consultation for web development in Pueblo, CO."
+                "Paragraph":"Our goal is to boost your online presence through targeted marketing and SEO services as well as making your website development strategic for generating leads. With contact forms, analytics, and simple click-to-call design features, we can make sure that people not only see you, but are able to connect with you conveniently. As we develop your online presence and create the funnels for customers to get directly to you, you will see more opportunities are available in your area than you ever realized. The best part is that you will be able to see exactly how you can best serve your clients and build a strategy that is useful for years to come. Call us today to set up a free consultation for web development in Pueblo, CO."}
             }
+        ]
         }
-    }},
+    },
     {"local_map_listing":{
         "Jumbotron":{
             "Heading":"Everyone is Using Google Maps in Pueblo, CO",
             "Paragraph":"Google maps is one of the most convenient features on any smart phone. When people are in a new place or are looking for a nearby business, often times Google Maps is the place they go. Google maps provides the user with the ability to search for types of businesses and see the top results that are close to them. What that means is many people are making their choice on where to go based on the results that pop up in their google map search. The opportunity to connect with customers through Google Maps is practical and cutting edge. /n Imagine that you had never been to Pueblo, CO before and you were looking for a coffee shop that was in the area close to where you were staying. An easy way that you could find one would be by putting a search for “coffee shop near me” into google maps. What you may not realize is that there are specific algorithms that determine what Google maps shows at the top of the results for you. That is where our team of talented online marketing whizzes comes in to make sure that when people are searching for businesses like yours, they find it right near the top. It is a crucial component to the modern market, and you might be surprised by how much business you are currently missing out on without a Google Maps strategy."
         },
-        "Section_A":{
-            "Images":[],
-            "Data_1":{
+        "Section_A":[
+            {
+                "Data_1":{
                 "Heading_2":"How Marketing Through Google Maps Will Boost Your Sales",
-                "Paragraph":"Are you looking for an opportunity to change the way your Pueblo, CO business finds new sales leads? It may already be your top focus to see how you can use all of the advantages of the internet to guarantee that people are finding and using your business. If that is the case, then Pueblo Marketing can provide you with the practical know how to accomplish all of your goals of bringing in new customers. One of the really cool and innovative ways that we have been able to do that with our clients is by boosting their presence on Google Maps. /n Now, there are some overlaps from Google to Google maps, but overall there are some specific things that need to be done to make the Google Maps algorithm work in your favor. However, with the expertise that our marketers bring to the table, we can make sure that when people are searching for businesses like yours through their Google maps they will be able to find you easily."
+                "Paragraph":"Are you looking for an opportunity to change the way your Pueblo, CO business finds new sales leads? It may already be your top focus to see how you can use all of the advantages of the internet to guarantee that people are finding and using your business. If that is the case, then Pueblo Marketing can provide you with the practical know how to accomplish all of your goals of bringing in new customers. One of the really cool and innovative ways that we have been able to do that with our clients is by boosting their presence on Google Maps. /n Now, there are some overlaps from Google to Google maps, but overall there are some specific things that need to be done to make the Google Maps algorithm work in your favor. However, with the expertise that our marketers bring to the table, we can make sure that when people are searching for businesses like yours through their Google maps they will be able to find you easily."}
             },
+            {
             "Data_2":{
                 "Heading_2":"HOW DOES THAT BOOST SALES?",
-                "Paragraph":"How does that boost sales? It really is as simple as going where the people are. People are using Google Maps to search for where to go to eat, buy groceries, get a massage, and so much more. If you can make sure that your business is easily seen and a top result on Google Maps, you will drive more people to your business and your sales will be booming."
+                "Paragraph":"How does that boost sales? It really is as simple as going where the people are. People are using Google Maps to search for where to go to eat, buy groceries, get a massage, and so much more. If you can make sure that your business is easily seen and a top result on Google Maps, you will drive more people to your business and your sales will be booming."}
             },
+            {
             "Data_3":{
                 "Heading_2":"Understanding How Google Maps Works for Business",
-                "Paragraph":"Whoa, whoa, whoa, you mean to tell me that <b>Google Maps</b> is a tool for business? That’s right. Think about everything that we have talked about for internet usage so far and it starts to make a lot of sense. Imagine that someone is in need of a few tools to carry out a home improvement project, often times they will go directly to google maps and search “hardware store” to see where the closest ones in their area are. What you may not know is that there are specific things that your business and website needs to do to guarantee that you show up when people are looking for a business like yours on <b>Google Maps</b>. That’s where we come in. Our team understands specifically what to do to guarantee that your business is a top result on Google Maps and a likely click for anyone searching for your type of business. We would love to share more with you about how we can get this done for your business in Pueblo, CO through a risk free consultation today."
+                "Paragraph":"Whoa, whoa, whoa, you mean to tell me that <b>Google Maps</b> is a tool for business? That’s right. Think about everything that we have talked about for internet usage so far and it starts to make a lot of sense. Imagine that someone is in need of a few tools to carry out a home improvement project, often times they will go directly to google maps and search “hardware store” to see where the closest ones in their area are. What you may not know is that there are specific things that your business and website needs to do to guarantee that you show up when people are looking for a business like yours on <b>Google Maps</b>. That’s where we come in. Our team understands specifically what to do to guarantee that your business is a top result on Google Maps and a likely click for anyone searching for your type of business. We would love to share more with you about how we can get this done for your business in Pueblo, CO through a risk free consultation today."}
             }
-        }
+        ]
     }},
     {"social_media_ads":{
         "Jumbotron":{
             "Heading":"How Facebook Ads Impact Sales Leads",
             "Paragraph":"One thing that everyone knows about online is Facebook. What started as a simple site for college students is now one of the biggest online juggernauts and almost everyone in the world is using it. Facebook ads are a way to use marketing dollars to create targeted ads that allow your business and promotions to be seen by a wider audience. Using these ads, our team has the ability to turn the money that you spend into money that you make, which is always the ultimate goal. /n Facebook ads are important because they utilize the tools of the social media powerhouse to get the right people seeing your posts and will boost promotions that drive sales. It is also a powerful way that we make sure your Facebook ads in Pueblo, CO reach the right people and drive traffic back to your website. As we create targeted ad campaigns and analyze the data that it provides we are able to customize future ads that are even more impactful. These promotions will bring in an audience that needs your services and provide us with more information on how to better reach that audience going forward. /n It is important to approach Facebook ads in an intentional way so that your money is not wasted. That is why Pueblo SEO has perfected our approach through research and created a method that is tried and true for generating sales leads through Facebook."
         },
-        "Section_A":{
-            "Images":[],
-            "Data_1":{
+        "Section_A":[
+            {
+                "Data_1":{
                 "Heading_2":"Everyone Uses Facebook, Your Business Should Too",
-                "Paragraph":"​Everyone, seriously everyone, is using Facebook these days. Great grandmothers and teens alike use the platform for a variety of purposes, but regardless of what got them there, they could be the key to boosting your sales. The use of Facebook Ads in Pueblo, CO and the surrounding area will give you the opportunity to reach directly into the screens of those most likely to use your services. While it starts with some educated guesses about demographics and targeting in your area, our complete plan for Facebook advertising will get more precise the longer that we are able to work on your campaign. /n If you have ever felt that your advertising dollars are not going to the best place, then it might be because it is not reaching the right demographics. Through analyzing data and specifically targeting Facebook ads in the right place, we are able to make sure that your money does not get wasted. Utilizing temporary promotional ads, and campaigns that drive potential customers back to your site will not only create more immediate sales, but will also build your brand for the long haul. Each and every campaign is a building block for your brand and our Facebook Advertising in Pueblo, CO is precisely how you can use the social media giant for sales lead generation."
+                "Paragraph":"​Everyone, seriously everyone, is using Facebook these days. Great grandmothers and teens alike use the platform for a variety of purposes, but regardless of what got them there, they could be the key to boosting your sales. The use of Facebook Ads in Pueblo, CO and the surrounding area will give you the opportunity to reach directly into the screens of those most likely to use your services. While it starts with some educated guesses about demographics and targeting in your area, our complete plan for Facebook advertising will get more precise the longer that we are able to work on your campaign. /n If you have ever felt that your advertising dollars are not going to the best place, then it might be because it is not reaching the right demographics. Through analyzing data and specifically targeting Facebook ads in the right place, we are able to make sure that your money does not get wasted. Utilizing temporary promotional ads, and campaigns that drive potential customers back to your site will not only create more immediate sales, but will also build your brand for the long haul. Each and every campaign is a building block for your brand and our Facebook Advertising in Pueblo, CO is precisely how you can use the social media giant for sales lead generation."}
             }
-        }
+        ]
     }},
     {"google_ads":{
         "Jumbotron":{
             "Heading":"Using Google Ads to Boost Online Presence in Pueblo, CO",
             "Paragraph":"If you are alive in the 21st Century, then you cannot escape the dominance of Google in everyday life. Don’t know something? Google it. Google is so powerful that it has become a verb in our everyday vernacular. That is why using Google Ads is a crucial part of the online marketing success that we have had with our clients. We utilize Google Ads in a way to immediately get eyes on your business which is the most secure method for generating sales leads online./n The key to properly using Google Ads is to understand all of the possible benefits to be gained and making sure to take advantage of all of them. These ads have the ability to drive people to your website, but our goal is to make sure that you are ready for the traffic it creates as well. Google ads also allow us to take a targeted approach to marketing by combining the efforts of SEO and the ad itself. One of the reasons that Google ads are not only effective but cost efficient is because they have to actually work at getting you clicks in order to make money. /n   Taking advantage of the boost that you can get from Google Ads will dramatically increase your sales leads which you can then turn into real money for your business. Our team is here to help you utilize this tool to the fullest and make sure that it is a productive way to spend your ad dollars."
         },
-        "Section_A":{
-            "Images":[],
-            "Data_1":{
+        "Section_A":[
+            {
+                "Data_1":{
                 "Heading_2":"Turning Temporary Google Ad Boosts into Big Picture Gains",
-                "Paragraph":"Ultimately, we do not want you to have to pour out funds for Google Ads all the time for the duration of your business. The goal of using these paid ads is not just to benefit from their temporary boost to your online presence but to be a building block for your business to become the king of the market. When we run Google Ad campaigns in Pueblo, CO, we are not just looking to use them to make those sales but to take the analytics and increased traffic for future sales goals. The more that we can boost your business and create the reputation that you are the most trusted place to go in your particular market, the less you will have to rely on boosts to get eyes on your advertising. /n The main thing that we want you to know about working with Pueblo Seo is that we are going to build your business’s online marketing in such a way that you see long term benefits. Each and every time you invest in a marketing campaign through us, we want you to see the big picture and how this is going to affect your overall performance online. /n If you are interested in learning more about how Google Ads work and how our team can use them to make sure you can corner the market in your area, then call us for a free consultation."
+                "Paragraph":"Ultimately, we do not want you to have to pour out funds for Google Ads all the time for the duration of your business. The goal of using these paid ads is not just to benefit from their temporary boost to your online presence but to be a building block for your business to become the king of the market. When we run Google Ad campaigns in Pueblo, CO, we are not just looking to use them to make those sales but to take the analytics and increased traffic for future sales goals. The more that we can boost your business and create the reputation that you are the most trusted place to go in your particular market, the less you will have to rely on boosts to get eyes on your advertising. /n The main thing that we want you to know about working with Pueblo Seo is that we are going to build your business’s online marketing in such a way that you see long term benefits. Each and every time you invest in a marketing campaign through us, we want you to see the big picture and how this is going to affect your overall performance online. /n If you are interested in learning more about how Google Ads work and how our team can use them to make sure you can corner the market in your area, then call us for a free consultation."}
             }
-        }
+        ]
     }}
 ]
