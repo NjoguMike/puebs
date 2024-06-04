@@ -20,7 +20,10 @@ function Service() {
 
       return <div className='service_content'>
         <h2>{read_data.Heading_2}</h2>
-        <p>{read_data.Paragraph}</p>
+        <div>
+          <img src={read_data.Images} alt=''/>
+          <p>{read_data.Paragraph}</p>
+        </div>
       </div>
       }
 )
@@ -32,9 +35,6 @@ function Service() {
       <div>
         <h1>{heading}</h1>
         <p>{heading_paragraph}</p>
-      </div>
-      <div>
-        <img src="" alt=''/>
       </div>
       {section_info}
       <Contacts/>
