@@ -18,11 +18,9 @@ function Service() {
     const read_data = Object.values(data)[0]
 
       return <div className='service_content'>
-        <div className='container'>
-          <div><img src={read_data.Images} alt=''/></div>
+          <img src={read_data.Images} alt=''/>
           <h2>{read_data.Heading_2}</h2>
           <p>{read_data.Paragraph}</p>
-        </div>
       </div>
       }
 )
