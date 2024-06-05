@@ -18,9 +18,9 @@ function Service() {
     const read_data = Object.values(data)[0]
 
       return <div className='service_content'>
-        <h2>{read_data.Heading_2}</h2>
         <div className='container'>
           <div><img src={read_data.Images} alt=''/></div>
+          <h2>{read_data.Heading_2}</h2>
           <p>{read_data.Paragraph}</p>
         </div>
       </div>
@@ -33,7 +33,9 @@ function Service() {
         <h1>{heading}</h1>
         <p>{heading_paragraph}</p>
       </div>
-      {section_info}
+      <article className='service_container'>
+        {section_info}
+      </article>
       <Contacts/>
     </div>
   )
