@@ -85,3 +85,37 @@
         }
     }
 }
+.service_main{
+    padding: 8%;
+
+    h1{
+        text-align: center;
+        padding: 30px 0;
+    }
+}
+.service_content{
+    padding: 10%;
+
+    h2{
+        text-align: center;
+        padding: 30px 0;
+    }
+
+    .container{
+        display: flex;
+        flex-direction: row;
+        gap: 20px;
+        flex-wrap: wrap;
+        flex-basis: 1 0 1;
+
+        img{
+            border-radius: 12px;
+            height: 300px;
+            max-width: 100%;
+        }
+/* 
+        p{
+            width: 10%;
+        } */
+    }
+}
