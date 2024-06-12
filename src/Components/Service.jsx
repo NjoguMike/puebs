@@ -1,10 +1,23 @@
-import React from 'react'
+import React, { useState } from 'react'
 import { useParams } from "react-router-dom";
 import data1 from "../PageData.json"
 import Contacts from '../Components/Contacts';
+import { FaAngleDown , FaAngleUp } from  'react-icons/fa'
+
 
 function Service() {
+  const [ isActive, setActive] = useState(null)
 
+  const handleActive = (index) => {
+    if (isActive === index){
+      setActive(null)
+    }
+    else{
+      setActive(index)
+    }
+  }
+
+  // console.log(isActive)
   const { serviceId } = useParams();
 
   const parameter = serviceId === undefined ? "services" : serviceId
@@ -13,14 +26,21 @@ function Service() {
 
   const heading = data.Jumbotron.Heading
   const heading_paragraph = data.Jumbotron.Paragraph
-  const section_info = content.map((data) => 
+  const section_info = content.map((data, index) => 
     {
     const read_data = Object.values(data)[0]
 
       return <div className='service_content'>
           <img src={read_data.Images} alt=''/>
-          <h2>{read_data.Heading_2}</h2>
-          <p>{read_data.Paragraph}</p>
+          <div onClick={()=>handleActive(index)}>
+            <h2>{read_data.Heading_2}</h2>
+            <span>
+            {isActive === index ? <FaAngleUp /> : <FaAngleDown />}</span>
+          </div>
+          <div>
+            {isActive === index && <p>{read_data.Paragraph}</p>}
+          </div>
+
       </div>
       }
 )
