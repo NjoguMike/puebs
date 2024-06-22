@@ -1,6 +1,7 @@
 import React from 'react'
 import { Link } from 'react-router-dom';
 import logo from '../Assets/puebloico.jpg'
+import { FaPhone } from 'react-icons/fa'
 
 function Navbar() {
   return (
@@ -21,7 +22,12 @@ function Navbar() {
             </div>
             <Link to={'/contact'}>Contact Us</Link>
         </ul>
-        <button>Call Us</button>
+        <button >
+          <Link className='call-button' to={`tel:254708741800`}>
+            <span><FaPhone /></span>
+            <span>Call Us</span>
+          </Link>
+        </button>
     </div>
   )
 }
