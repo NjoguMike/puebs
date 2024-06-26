@@ -9,6 +9,7 @@
             display: block;
             max-width: 100%;
             height: auto;
+            /* background: linear-gradient(to right, rgb(0 0 0/0.5), rgb(0 0 0/0)); */
         }
 
         .landing_head{
@@ -51,6 +52,7 @@ section{
     font-size: 1rem;
     
     h1{
+        padding: 1rem 0;
         color: #0AA2C0;
     }
 }
@@ -111,7 +113,7 @@ section{
 .card_menu{
     height: auto;
     display: flex;
-    justify-content: center;
+    justify-content: flex-start;
     align-items: center;
     flex-direction: row;
     flex-wrap: wrap;

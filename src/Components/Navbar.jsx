@@ -1,7 +1,7 @@
 import React from 'react'
 import { Link } from 'react-router-dom';
 import logo from '../Assets/puebloico.jpg'
-import { FaPhone } from 'react-icons/fa'
+import { FaPhone, FaCaretDown } from 'react-icons/fa'
 
 function Navbar() {
   return (
@@ -11,7 +11,7 @@ function Navbar() {
             <Link to={'/'}>Home</Link>
             <Link to={'/about'}>About Us</Link>
             <div className='dropdown'>
-              <Link to={'/services'} className='dropbtn'>Our Services</Link>
+              <Link to={'/services'} className='dropbtn'>Our Services <span><FaCaretDown size={13}/></span></Link>
               <div class="dropdown-content">
                 <Link to={'services/seo'}>SEO</Link>
                 <Link to={'services/web_design'}>Web Design</Link>
@@ -24,7 +24,7 @@ function Navbar() {
         </ul>
         <button >
           <Link className='call-button' to={`tel:254708741800`}>
-            <span><FaPhone /></span>
+            <span className='phone'><FaPhone /></span>
             <span>Call Us</span>
           </Link>
         </button>

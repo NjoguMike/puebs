@@ -19,7 +19,7 @@ function Home() {
   return (
     <div className='main'>
         <main className='landing'>
-            <img src={landing_image} alt='landing'/>
+            <img src={landing_image} alt='landing' loading='lazy'/>
             <div className='landing_head'>
                 <h1>Pueblo SEO</h1>
                 <button> Explore </button>
@@ -32,7 +32,7 @@ function Home() {
                 <button>Read More</button>
             </div>
             <div className='intro_image'>
-                <img src={landing_image2} alt='landing-view' className='jumbo_image'/>
+                <img src={landing_image2} alt='landing-view' className='jumbo_image' loading='lazy'/>
             </div>
         </section>
         <section className='card_menu'>
