@@ -34,13 +34,16 @@
     align-items: center;
 
     a{
-      font: bold 1.2rem;
+      font-size: 18px;
       margin: 7px;
       color: rgb(56, 184, 156);
       text-decoration: none;
       list-style: none;
-      width: 100%;
       padding: 0 15px;
+    }
+    
+    a:hover{
+      text-shadow: 0.5px 0.5px 1px #27272769;
     }
   }
   
@@ -54,6 +57,7 @@
     a {
       text-decoration: none;
       color: #fff;
+
       span{
         margin: 5px;
       }
@@ -65,9 +69,6 @@
   position: relative;
   display: inline-block;
 
-  .dropbtn{
-    padding-bottom: 5px;
-  }
 }
 
 .dropdown-content{
@@ -88,6 +89,8 @@
   }
 
   a:hover{
+    transition: .7s;
+    padding: 2px 8px;
     border-radius: 2px;
     background: #0AA2C0;
     color: #fff;

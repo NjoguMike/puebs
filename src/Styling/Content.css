@@ -23,6 +23,14 @@
             align-items: center;
             color: #fff;
 
+            h1{
+                font-size: 46px;
+                letter-spacing: 2px;
+                padding: 10px;
+                text-shadow: 2px 2px 4px #000000;
+                margin-bottom: 35px;
+            }
+
             button{
                 padding: 10px 20px;
                 border: none;
