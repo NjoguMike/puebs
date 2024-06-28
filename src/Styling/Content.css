@@ -182,7 +182,7 @@ section{
     background-attachment: fixed;
     background-position: center;
     background-repeat: no-repeat;
-    background-size: cover;
+    background-size: 100%;
 
     p{
         font-size: 3rem;
@@ -214,7 +214,7 @@ section{
         background-attachment: fixed;
         background-position: center;
         background-repeat: no-repeat;
-        /* background-size:auto; */
+        /* background-size:100%; */
     
         .carousel-track{
             width: 70vw;

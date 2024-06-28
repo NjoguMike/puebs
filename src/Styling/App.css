@@ -121,6 +121,11 @@
     padding: 20px;
     width: 100%;
 
+    .logo{
+      max-width: 70%;
+      color: #0AA2C0;
+    }
+
     .socials{
       display: flex;
       flex-direction: column;
@@ -134,13 +139,26 @@
     .navigation{
       text-align: end;
 
-      ul{
+      .nav-footer{
+        background-color: transparent;
         display: flex;
         flex-direction: column;
-        justify-content: flex-end;
+        align-items: flex-end;
+
+        a{
+          width: 100%;
+          color: #fff;
+          text-decoration: none;
+          padding: 2px 5px;
+          margin: 4px;
+        }
 
         a:hover{
-          color: #fff;
+          border-radius: 2px;
+          padding-right: 12px;
+          transition: .5s;
+          color: #0AA2C0;
+          background-color: #fff;
         }
       }
     }
