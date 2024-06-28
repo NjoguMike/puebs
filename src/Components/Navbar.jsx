@@ -1,6 +1,6 @@
 import React from 'react'
 import { Link } from 'react-router-dom';
-import logo from '../Assets/puebloico.jpg'
+import logo from '../Assets/Digital_daktariz_logo.png'
 import { FaPhone, FaCaretDown } from 'react-icons/fa'
 
 function Navbar() {

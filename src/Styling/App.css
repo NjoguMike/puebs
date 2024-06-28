@@ -10,9 +10,10 @@
 }
 
 .App-logo {
-  padding-inline: 2rem;
+  padding-block: 0.25rem;
+  padding-inline: 4rem;
   width: auto;
-  height: 7.5vmin;
+  height: 4.5vmin;
   pointer-events: none;
 }
 
