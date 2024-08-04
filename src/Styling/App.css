@@ -2,7 +2,6 @@
   box-sizing: border-box;
   margin: 0;
   font-family: 'Merriweather', 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-  font-size: medium;
 }
 
 #root{
@@ -122,10 +121,10 @@
 }
 
 @media screen and (max-width: 920px){
-  /* .App-logo{
+  .App-logo{
     width: auto;
-    height: 6vh;
-  } */
+    height: 5vh;
+  }
 
 .nav{
   width: 100vw;

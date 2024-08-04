@@ -34,7 +34,7 @@
             }
 
             button{
-                width: 55%;
+                width: 15vw;
                 display: flex;
                 justify-content: space-between;
                 align-items: center;
@@ -43,6 +43,7 @@
                 border-radius: 18px;
                 background: #0AA2C0;
                 color: #fff;
+                cursor: pointer;
                 container-type: inline-size;
             }
 
@@ -89,15 +90,7 @@
         }
     }
 
-
-
-
-.jumbo_image{
-    width: 100%;
-    height: auto;
-}
-
-section{
+/* section{
     position: relative;
     font-size: 1rem;
     
@@ -105,22 +98,25 @@ section{
         padding: 1rem 0;
         color: #0AA2C0;
     }
-}
+} */
 
 .intro{
     display: flex;
     flex-direction: row;
     justify-content: center;
     flex-wrap: wrap;
+    flex-basis: 0 1;
     column-gap: 60px;
-    padding: 100px 25px;
+    padding: 60px 25px;
     height: 100%;
     margin-bottom: 25px;
 
+    h1{
+        margin: 2.5rem 0;
+        color: #0AA2C0;
+    }
+
     .intro_image{
-        display: flex;
-        justify-content: flex-start;
-        align-items: center;
         width: 40rem;
         padding: 80px 0;
 
@@ -141,22 +137,47 @@ section{
     width: 50rem;
     padding: 15px 25px;
 
-    button{
-        text-align: center;
-        height: 50px;
-        width: 150px;
+    p{
+        padding: 20px 10px;
+        font-size: .9rem;
+        line-height: 24px;
+    }
+    .readmorebtn{
+        display: flex;
+        flex-wrap: nowrap;
+        justify-content: space-between;
+        align-items: center;
+        height: 45px;
+        width: 130px;
         margin-top: 25px;
         padding: 8px 15px;
         border: none;
         border-radius: 25px;
         color: #fff;
         background-color: #0AA2C0;
+        overflow: hidden;
+        transition: .5s ease-out;
+
+
+        span{
+            width: 100%;
+        }
+        .icon{
+            display: none;
+        }
     }
-    button:hover{
+    .readmorebtn:hover{
+        transition: .4s ease-in;
+        width: 180px;
         font-weight: bold;
         border: 2px solid #0AA2C0;
         color: #0AA2C0;
         background-color: #fff;
+
+        .icon{
+            width: 20%;
+            display: inline;
+        }
     }
 }
 
@@ -187,22 +208,12 @@ section{
         height: 16rem;
         background-color: rgba(116, 116, 116, 0.37);
         padding: 20px 40px;
-        font-size: .9rem;
         margin: 10px 15px;
 
-        button{
-            width: 150px;
-            font-weight: bold;
-            padding: 10px 15px;
-            color: #0AA2C0;
-            border-radius: 10px;
-            background-color: #fff;
-            border: 2px solid #0AA2C0;
-        }
-        button:hover{
-            color: #fff;
-            background-color: #0AA2C0;
-            border: none;
+        p{
+            padding: 20px 10px;
+            font-size: .8rem;
+            line-height: 20px;
         }
     }
 }
