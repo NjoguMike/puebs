@@ -6,27 +6,26 @@ import { FaFacebook, FaInstagram, FaYoutube} from 'react-icons/fa'
 function Footer() {
   return (
     <div className='footer'>
-        <h2>LET’S CONNECT</h2>
+        <div className='end_title'>
+            <img className='logo' src={logo} alt='logo'/>
+            <h2>LET’S CONNECT</h2>
+        </div>
         <div className='footer-container'>
-            <div>
-                <img className='logo' src={logo} alt='logo'/>
+            <div className='contact_us'>
+                <p>Office hours | 8am-5pm <br/><br/> Office Location:  </p>
                 <h3>CONTACT US</h3>
-                <p>Office hours | 8AM-5PM <br/><br/> Office Location:  </p>
-            </div>
-            <div className='socials'>
-                <div>
-                    <p>Digital Daktariz Kenya <br/> Mail: badassmarketers@gmail.com <br/> Phone: 719-628-1673</p>
-                </div>
-                <div>
+                <p>Digital Daktariz Kenya: badassmarketers@gmail.com <br/><br/> Phone: +254-708-741-800</p>
+
+                <div className='socials'>
                     <span><FaFacebook color='#0e53d4' size={30}/></span>
-                    <span><FaInstagram size={30}/></span>
+                    <span id='insta'><FaInstagram size={30}/></span>
                     <span><FaYoutube color='red' size={30}/></span>
                 </div>
             </div>
             <div className='navigation'>
                 <h3>NAVIGATION</h3>
                 <hr/>
-                <ul className='nav nav-footer'>
+                <ul className='nav-footer'>
                     <Link to={'/'}>Home</Link>
                     <Link to={'/about'}>About Us</Link>
                     <Link to={'/seo'}>Our Seo</Link>
