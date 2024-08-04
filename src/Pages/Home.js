@@ -10,7 +10,7 @@ import { FaSearch, FaArrowRight } from 'react-icons/fa'
 
 function Home() {
     const testimonialSettings = {
-        arrows:false,
+        arrows:true,
         slidesToShow: 1,
         autoplay:true,
         autoplayScroll: 1,
@@ -70,7 +70,7 @@ function Home() {
         <section className='outro'>
             <div className='intro_card'>
                 <h1>What our clients think</h1>
-                <p>With <b>Digital Daktariz</b>, you get a team that understands the ins and outs of <b>internet marketing</b> and <b>web development</b> and will utilize all available tools to make sure that you are successful in generating sales leads so that you can grow your business. Our team is ready to put together a personalized plan for your business when you call us today and set up a free consultation. We look forward to helping you generate sales through revolutionary online marketing.</p>
+                <p>With <b>Digital Daktariz</b>, you get a team that understands the in's and out's of <b>internet marketing</b> and <b>web development</b> and will utilize all available tools to make sure that you are successful in generating sales leads so that you can grow your business. Our team is ready to put together a personalized plan for your business when you call us today and set up a free consultation. We look forward to helping you generate sales through revolutionary online marketing.</p>
             </div>
             <Slider {...testimonialSettings} className='testimonials'>
                 <div className='client-card'>
