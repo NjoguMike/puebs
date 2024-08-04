@@ -157,7 +157,7 @@
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  padding: 20px 40px;
+  padding: 10px 60px;
   width: 100vw;
 
   .end_title{
@@ -171,7 +171,7 @@
     display: inherit;
     flex-direction: row;
     justify-content: space-between;
-    padding: 20px 30px;
+    padding: 10px 60px;
     width: 100vw;
 
     p{
