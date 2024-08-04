@@ -6,6 +6,7 @@ import profile from '../Assets/profile.jpg'
 import profile_2 from '../Assets/profile_2.jpg'
 import profile_3 from '../Assets/profile_3.jpg'
 import Slider from 'infinite-react-carousel';
+import { FaSearch } from 'react-icons/fa'
 
 function Home() {
     const testimonialSettings = {
@@ -21,8 +22,12 @@ function Home() {
         <main className='landing'>
             <img src={landing_image} alt='landing' loading='lazy'/>
             <div className='landing_head'>
-                <h1>Digital Daktariz</h1>
-                <button> Explore </button>
+                <h1 id='a'>Digital</h1>
+                <h1 id='b'>Daktariz</h1>
+                <button>
+                    <span className='search_text'> Explore </span>
+                    <span className='search_icon'> <FaSearch /></span>
+                </button>
             </div>
         </main>
         <section className='intro'>
@@ -38,17 +43,17 @@ function Home() {
         <section className='card_menu'>
             <div className='card'>
                 <h3>SEO</h3>
-                <p>If you are looking for an opportunity to connect with the audience that is out there waiting for your products and services, then SEO marketing is the way to go.</p>
+                <p>Looking for an opportunity to connect with the right audience?, then SEO marketing is the way to go.</p>
                 <button>READ MORE</button>
             </div>
             <div className='card'>
                 <h3>WEB DESIGN</h3>
-                <p>Having a perfect pitch won’t do you any good if it isn’t pitched at the right time and place. And with the plethora of mediums out there today, that’s not easy. We ensure every media dollar you spend contributes towards your ROI. </p>
+                <p>Having a perfect pitch won’t do you any good if it isn’t pitched at the right time or place. We ensure every shilling spent contributes towards your ROI. </p>
                 <button>READ MORE</button>
             </div>
             <div className='card'>
-                <h3>LOCAL MAP LISTING</h3>
-                <p>Want a social media campaign that knocks people’s socks off? Well, so do we, and we know just what needs to happen to make that a reality. We’ll help you unlock the potential of your brand, and infuse it in all the right channels. </p>
+                <h3>SOCIAL MEDIA Ads</h3>
+                <p>Want a social media campaign that knocks people’s socks off? Well, so do we, and we know just what needs to happen to make that a reality. </p>
                 <button>READ MORE</button>
             </div>
         </section>
@@ -62,9 +67,7 @@ function Home() {
                 <img src={services_image} alt='landing-view' className='jumbo_image'/>
             </div>
         </section>
-        <div className='call_to_action'>
-            {/* <p>There are many things involved in utilizing SEO to boost your business, but if you give us a call we can set up a consultation to provide you with a complete view of our plan for you. Contact us today to learn more about utilizing best SEO practices for your business in Digital Daktariz, CO. If you are located in Kenya springs please check out or Kenya Springs SEO company they can help with any Search engine optimization you may need.</p> */}
-        </div>
+        <div className='call_to_action'></div>
         <section className='outro'>
             <div className='intro_card'>
                 <h1>What our clients think</h1>

@@ -1,13 +1,13 @@
 import React from 'react'
 import { Link } from 'react-router-dom';
 import logo from '../Assets/Digital_daktariz_logo.png'
-import { FaPhone, FaCaretDown } from 'react-icons/fa'
+import { FaPhone, FaCaretDown, FaBars } from 'react-icons/fa'
 
 function Navbar() {
   return (
     <div className='nav'>
         <img className='App-logo' src={logo} alt='logo' />
-        <ul className='navbar'>
+        <ul id='navbar'>
             <Link to={'/'}>Home</Link>
             <Link to={'/about'}>About Us</Link>
             <div className='dropdown'>
@@ -22,7 +22,11 @@ function Navbar() {
             </div>
             <Link to={'/contact'}>Contact Us</Link>
         </ul>
-        <button >
+        <input className='hamburger_menu' type='checkbox' id='hamburger'/>
+        <label htmlFor='hamburger' className='hamburgerbtn'>
+          <i className='fahamburger'><FaBars size={24}/></i>
+        </label>
+        <button className='call_button'>
           <Link className='call-button' to={`tel:254708741800`}>
             <span className='phone'><FaPhone /></span>
             <span>Call Us</span>

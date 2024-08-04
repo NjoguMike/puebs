@@ -1,53 +1,95 @@
-/* .main{
-    margin: -8px; */
-
     .landing{
+        display: flex;
+        flex-wrap: wrap;
+        height: auto;
         position: relative;
         display: inline-block;
+        overflow: hidden;
 
         img{
+            height: 100%;
             display: block;
-            max-width: 100%;
-            height: auto;
-            /* background: linear-gradient(to right, rgb(0 0 0/0.5), rgb(0 0 0/0)); */
+            max-width: 100vw;
         }
 
         .landing_head{
             position: absolute;
-            width: 100%;
+            width: 40%;
             height: 100%;
+            right: 0;
             bottom: 0;
-            display: flex;
-            flex-direction: column;
-            justify-content: center;
-            align-items: center;
+            padding-left: 5%;
+            padding-right: 4%;
+            align-content: center;
+            text-align: left;
             color: #fff;
 
             h1{
-                font-size: 46px;
+                opacity: 0;
+                font-family: 'Playfair Display', serif;
+                font-size: 3.2rem;
                 letter-spacing: 2px;
-                padding: 10px;
-                text-shadow: 2px 2px 4px #000000;
-                margin-bottom: 35px;
+                padding: 5px;
+                margin-bottom: 15px;
             }
 
             button{
-                padding: 10px 20px;
+                width: 55%;
+                display: flex;
+                justify-content: space-between;
+                align-items: center;
+                padding: 10px 25px;
                 border: none;
-                border-radius: 16px;
+                border-radius: 18px;
                 background: #0AA2C0;
                 color: #fff;
-                font-size: .9em;
+                container-type: inline-size;
             }
-            button:hover{
-                background: #0890ac;
+
+            @container (max-width: 12rem){
+                button .search_icon{
+                    display: none;
+                }
+                button .search_text{
+                    margin: auto;
+                }
+            }
+
+            @container (max-width: 6rem){
+                button .search_icon{
+                    display: inline;
+                    margin: auto;
+                }
+                button .search_text{
+                    display: none;
+                }
             }
         }
+
         .landing_head:hover{
             transition: .5s ease-in-out;
-            background-color: #31446633;
+            background-color: #21252b62;
+
+            #a{
+                opacity: 1;
+                transition: .5s ease-out;
+                margin-left: -3%;
+            }
+            #b{
+                opacity: 1;
+                transition: .5s ease-in;
+                margin-left: 3%;
+                margin-bottom: 8%;
+            }
+
+            /* button{
+                transition: .5s ease-out;
+                margin-left: -60%;
+            } */
         }
     }
+
+
 
 
 .jumbo_image{
