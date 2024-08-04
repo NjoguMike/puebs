@@ -8,8 +8,8 @@ function Navbar() {
     <div className='nav'>
         <img className='App-logo' src={logo} alt='logo' />
         <ul id='navbar'>
-            <Link to={'/'}>Home</Link>
-            <Link to={'/about'}>About Us</Link>
+            <Link className='a' to={'/'}>Home</Link>
+            <Link className='a' to={'/about'}>About Us</Link>
             <div className='dropdown'>
               <Link to={'/services'} className='dropbtn'>Our Services <span><FaCaretDown size={13}/></span></Link>
               <div class="dropdown-content">
@@ -20,7 +20,7 @@ function Navbar() {
                 <Link to={'services/google_ads'}>Google Ads (PPC)</Link>
               </div>
             </div>
-            <Link to={'/contact'}>Contact Us</Link>
+            <Link className='a' to={'/contact'}>Contact Us</Link>
         </ul>
         <input className='hamburger_menu' type='checkbox' id='hamburger'/>
         <label htmlFor='hamburger' className='hamburgerbtn'>

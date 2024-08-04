@@ -24,7 +24,6 @@
   position: sticky;
   display: flex;
   flex-direction: row;
-  flex-shrink: 1;
   justify-content: space-evenly;
   align-items: center;
   padding: 7px 5px;
@@ -38,7 +37,7 @@
 
     a{
       position: relative;
-      font-size: 18px;
+      font-size: 1rem;
       margin: 7px;
       color: rgb(56, 184, 156);
       text-decoration: none;
@@ -46,7 +45,7 @@
       padding: 0 15px;
     }
     
-    a::before{
+    .a::before{
       content: '';
       position: absolute;
       display: block;
@@ -54,12 +53,49 @@
       height: 2px;
       bottom: 0;
       left: 0;
+      color: #fff;
       background-color: #000;
       transform: scaleX(0);
-      transition: transform 0.3s ease;
+      transition: transform 0.5s ease;
     }
-    a:hover::before {
+    .a:hover::before {
       transform: scaleX(1) translate(25%);
+    }
+
+    .dropdown{
+      position: relative;
+      display: inline-block;
+    }
+    
+    .dropdown-content{
+      display: none;
+      position: absolute;
+      background-color: #fff;
+      width: 150px;
+      min-width: 170px;
+      padding: 8px 4px;
+      border-radius: 4px;
+      box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+      z-index: 1;
+    
+      a{
+        display: block;
+        padding: 5px 8px;
+        min-width: 165px;
+      }
+    
+      a:hover{
+        transition: .7s;
+        padding: 2px 8px;
+        border-radius: 2px;
+        background: #0AA2C0;
+        color: #fff;
+      }
+    }
+    
+    .dropdown:hover .dropdown-content{
+      display: block;
+      color: #fff;
     }
   }
 
@@ -85,7 +121,7 @@
   }
 }
 
-@media screen and (max-width: 840px){
+@media screen and (max-width: 920px){
   /* .App-logo{
     width: auto;
     height: 6vh;
@@ -112,42 +148,6 @@
       display: block;
     }
   }
-}
-
-.dropdown{
-  position: relative;
-  display: inline-block;
-
-}
-
-.dropdown-content{
-  display: none;
-  position: absolute;
-  background-color: #fff;
-  width: 150px;
-  min-width: 170px;
-  padding: 8px 4px;
-  border-radius: 4px;
-  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
-  z-index: 1;
-
-  a{
-    display: block;
-    padding: 5px 8px;
-    min-width: 165px;
-  }
-
-  a:hover{
-    transition: .7s;
-    padding: 2px 8px;
-    border-radius: 2px;
-    background: #0AA2C0;
-    color: #fff;
-  }
-}
-
-.dropdown:hover .dropdown-content{
-  display: block;
 }
 
 .footer{
