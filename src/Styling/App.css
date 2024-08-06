@@ -18,18 +18,22 @@
   pointer-events: none;
 }
 
-.nav {
+#nav {
   background-color: rgb(25, 80, 85);
   position: -webkit-sticky;
   position: sticky;
   display: flex;
   color: #fff;
   flex-direction: row;
-  justify-content: space-evenly;
+  justify-content: space-between;
   align-items: center;
   padding: 7px 15px;
   top: 0;
   z-index: 1;
+
+  #hamburger{
+    display: none;
+  }
 
   #navbar {
     margin: auto;
@@ -103,25 +107,28 @@
     }
   }
 
-  #hamburger, .hamburgerbtn{
-  display: none;
-  }
-
-  button {
+  .call-button {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
     margin-inline-end: 2rem;
     border: none;
     border-radius: 2px;
     background: #0AA2C0;
-    padding: .7rem 1.5rem;
-    
-    a {
-      text-decoration: none;
-      color: #fff;
+    padding: .8rem 1.5rem;
+    text-decoration: none;
+    color: #fff;
 
-      span{
-        margin: 5px;
-      }
+    span{
+      margin: 5px;
     }
+  }
+}
+
+.closed_menu{
+  #navbar{
+    visibility: hidden;
   }
 }
 
@@ -130,28 +137,70 @@
     width: auto;
     height: 5vh;
   }
-
-.nav{
+#nav{
+  #hamburger{
+    display: block;
+  }
+}
+  #navbar{
+    display: none;
+  }
+  
+.open_menu{
   width: 100vw;
-  justify-content: space-between;
+  justify-content: flex-end;
+  transition: .5s ease-in;
+  
+    #navbar{
+      display: flex;
+      position: absolute;
+      flex-direction: column;
+      top: 99%;
+      left: 0;
+      right: 0;
+      padding: 0 20px;
+      background-color: #0b6952;
+      width: 100vw;
+      margin: 0;
+      transition: .5s ease-in;
+
+      a{
+        height: 3rem;
+      }
+
+      .dropdown{
+        height: 3rem;
+      }
+
+      .call-button {
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        align-items: center;
+        width: 100vw;
+        background: #0AA2C0;
+        padding: .8rem 1.5rem;
+        text-decoration: none;
+        color: #fff;
+    
+        span{
+          margin: 5px;
+        }
+      }
+    }
+  }
+
+.closed_menu{
+  #nav {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
 
     #navbar{
       display: none;
     }
-
-    .call_button{
-      display: none;
-    }
-
-    .hamburgerbtn{
-      display: flex;
-      cursor: pointer;
-    }
-
-    #hamburger:checked ~ #navbar{
-      display: block;
-    }
   }
+}
 }
 
 .footer{

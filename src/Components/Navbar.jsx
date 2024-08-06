@@ -1,11 +1,15 @@
-import React from 'react'
+import React, { useState } from 'react'
 import { Link } from 'react-router-dom';
 import logo from '../Assets/Digital_daktariz_logo.png'
-import { FaPhone, FaCaretDown, FaBars } from 'react-icons/fa'
+import { FaPhone, FaCaretDown } from 'react-icons/fa'
+import { Fade as Hamburger } from 'hamburger-react'
 
 function Navbar() {
+
+  const [isOpen , setClass] = useState()
+
   return (
-    <div className='nav'>
+    <div className={isOpen} id='nav'>
         <img className='App-logo' src={logo} alt='logo' />
         <ul id='navbar'>
             <Link className='a' to={'/'}>Home</Link>
@@ -21,17 +25,19 @@ function Navbar() {
               </div>
             </div>
             <Link className='a' to={'/contact'}>Contact Us</Link>
+            <Link className='call-button' to={`tel:254708741800`}>
+              <span>Call Us</span>
+              <span className='phone'><FaPhone /></span>
+            </Link>
         </ul>
-        <input className='hamburger_menu' type='checkbox' id='hamburger'/>
-        <label htmlFor='hamburger' className='hamburgerbtn'>
-          <i className='fahamburger'><FaBars size={24}/></i>
-        </label>
-        <button className='call_button'>
-          <Link className='call-button' to={`tel:254708741800`}>
-            <span className='phone'><FaPhone /></span>
-            <span>Call Us</span>
-          </Link>
-        </button>
+        <span id='hamburger'><Hamburger onToggle={ open => {
+          if(open){
+            setClass('open_menu')
+          } else{
+            setClass('closed_menu')
+          }
+        }} />
+        </span>
     </div>
   )
 }
