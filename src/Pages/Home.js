@@ -7,6 +7,8 @@ import profile_2 from '../Assets/profile_2.jpg'
 import profile_3 from '../Assets/profile_3.jpg'
 import Slider from 'infinite-react-carousel';
 import { FaSearch, FaArrowRight } from 'react-icons/fa'
+import { Link } from 'react-router-dom';
+
 
 function Home() {
     const testimonialSettings = {
@@ -35,7 +37,7 @@ function Home() {
                 <h1>What Digital Daktariz brings You!</h1>
                 <p>All of the search engines that people regularly use are using algorithms to determine which websites are most relevant to the search term that they are using. What our team does, is make sure that we have a complete understanding of how those algorithms work, and then we use your website and social media accounts to make sure that your business is the most relevant place for Google to send people for search terms that relate to your field. If you are in the process of building your audience and trying to take your business to the next level, then you have to be excited about the opportunities available to market your business on the internet. Every single project we launch here at Digital Daktariz marketing begins with a thorough, often intense planning process. We involve as many of our in-house experts as needed to ensure that your plan is sound and successful.</p>
                 <button className='readmorebtn'>
-                    <span>About Us </span>
+                    <span><Link to={'/about'}>About Us</Link></span>
                     <span className='icon'><FaArrowRight /></span>
                 </button>
             </div>

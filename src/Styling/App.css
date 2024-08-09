@@ -7,42 +7,43 @@
 
 #root{
   width: 100vw;
+  overflow: hidden;
 }
-
 
 .App-logo {
   padding-block: 0.25rem;
   padding-inline: 4rem;
   width: auto;
   height: 4.5vmin;
-  pointer-events: none;
+  cursor: pointer;
 }
 
 #nav {
   background-color: rgb(25, 80, 85);
   position: -webkit-sticky;
-  position: sticky;
+  position: relative;
   display: flex;
   color: #fff;
   flex-direction: row;
   justify-content: space-between;
   align-items: center;
   padding: 7px 15px;
-  top: 0;
-  z-index: 1;
+  /* top: 0;
+  z-index: 1; */
 
   #hamburger{
     display: none;
   }
 
   #navbar {
-    margin: auto;
+    display: flex;
+    /* margin: auto; */
     justify-content: space-evenly ;
     align-items: center;
 
     a{
       position: relative;
-      font-size: 1rem;
+      font-size: .9rem;
       margin: 7px;
       color: #fff;
       text-decoration: none;
@@ -68,7 +69,7 @@
 
     .dropdown{
       position: relative;
-      display: inline-block;
+      /* display: inline-block; */
     }
     
     .dropdown-content{
@@ -81,7 +82,7 @@
       border-radius: 4px;
       box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
       z-index: 1;
-      margin-top: 4%;
+      margin-top: 3.5%;
     
       a{
         display: block;
@@ -112,7 +113,8 @@
     flex-direction: row;
     justify-content: center;
     align-items: center;
-    margin-inline-end: 2rem;
+    font-size: .8rem;
+    /* margin-inline-end: 2rem; */
     border: none;
     border-radius: 2px;
     background: #0AA2C0;
@@ -128,7 +130,7 @@
 
 .closed_menu{
   #navbar{
-    visibility: hidden;
+    display: none;
   }
 }
 
@@ -158,17 +160,13 @@
       top: 99%;
       left: 0;
       right: 0;
-      padding: 0 20px;
-      background-color: #0b6952;
+      padding: 20px;
+      background-color: #3A797F;
       width: 100vw;
-      margin: 0;
+      margin: none;
       transition: .5s ease-in;
 
       a{
-        height: 3rem;
-      }
-
-      .dropdown{
         height: 3rem;
       }
 

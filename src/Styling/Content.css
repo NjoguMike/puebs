@@ -158,6 +158,10 @@
         overflow: hidden;
         transition: .5s ease-out;
 
+        a{
+            color: #fff;
+            text-decoration: none;
+          }
 
         span{
             width: 100%;
@@ -171,8 +175,13 @@
         width: 180px;
         font-weight: bold;
         border: 2px solid #0AA2C0;
-        color: #0AA2C0;
         background-color: #fff;
+        color: #0AA2C0;
+
+        a{
+            color: #0AA2C0;
+            text-decoration: none;
+          }
 
         .icon{
             width: 20%;
