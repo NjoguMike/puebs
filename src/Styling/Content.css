@@ -42,6 +42,11 @@
                 color: #fff;
                 cursor: pointer;
                 container-type: inline-size;
+
+                a{
+                    color: #fff;
+                    text-decoration: none;
+                  }
             }
 
             @container (max-width: 12rem){
@@ -80,22 +85,8 @@
                 margin-bottom: 8%;
             }
 
-            /* button{
-                transition: .5s ease-out;
-                margin-left: -60%;
-            } */
         }
     }
-
-/* section{
-    position: relative;
-    font-size: 1rem;
-    
-    h1{
-        padding: 1rem 0;
-        color: #0AA2C0;
-    }
-} */
 
 .intro{
     display: flex;

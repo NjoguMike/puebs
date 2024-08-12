@@ -27,8 +27,10 @@ function Home() {
                 <h1 id='a'>Digital</h1>
                 <h1 id='b'>Daktariz</h1>
                 <button>
-                    <span className='search_text'> Explore </span>
-                    <span className='search_icon'> <FaSearch /></span>
+                    <span className='search_text'>
+                        <Link to={'/services'}>Explore</Link>
+                    </span>
+                    <span className='search_icon'><Link to={'/services'}><FaSearch /></Link></span>
                 </button>
             </div>
         </main>

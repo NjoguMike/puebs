@@ -6,7 +6,7 @@
 }
 
 #root{
-  width: 100vw;
+  width: 100%;
   overflow: hidden;
 }
 
@@ -25,7 +25,7 @@
   flex-direction: row;
   justify-content: space-between;
   align-items: center;
-  padding: 7px 15px;
+  padding: .6rem 1.4rem;
   transition: .9s ease-out;
 
   #hamburger{
@@ -61,6 +61,7 @@
     .dropdown{
       position: relative;
       display: inline-block;
+      padding: 5px 15px;
     }
     
     .dropdown-content{
@@ -108,12 +109,12 @@
     border: none;
     border-radius: 2px;
     background: #0AA2C0;
-    padding: .8rem 1.5rem;
+    padding: .6rem 1.2rem;
     text-decoration: none;
     color: #fff;
 
     span{
-      margin: 5px;
+      margin: 6px;
     }
   }
 }
@@ -122,10 +123,11 @@
   display: flex;
   flex-direction: row;
   align-items: center;
+  justify-content: space-between;
 }
 
 
-@media screen and (max-width: 920px){
+@media screen and (max-width: 980px){
   .App-logo{
     width: auto;
     height: 5vh;
@@ -137,6 +139,22 @@
       display: block;
     }
     
+    .dropdown{
+      padding: 5px 0px;
+    }
+    
+    .dropdown-content{
+      position: relative;
+      background-color: #3A797F;
+      width: 100%;
+      border: none;
+      box-shadow: none;
+      padding-left: 1rem;
+
+      a{
+        color: #fff;
+      }
+    }
   }
 
   .closed_menu{
@@ -147,7 +165,7 @@
   .open_menu{
     display: flex;
     flex-direction: column;
-    align-items: center;
+    align-items: flex-start;
     position: absolute;
     top: 99%;
     left: 0;
@@ -160,10 +178,6 @@
     a{
       padding: 10rem 0;
     } */
-
-    .dropdown:hover .dropdown-content{
-      position: relative;
-    }
   }
 }
 

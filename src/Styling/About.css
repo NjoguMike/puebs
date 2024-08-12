@@ -1,6 +1,4 @@
 .about{
-    margin-top: -16px;
-
     .header{
         display: flex;
         flex-direction: column;
@@ -30,6 +28,7 @@
 
         h1{
             color: #0AA2C0;
+            padding: 1rem 0;
         }
 
         .team_container{
@@ -45,7 +44,7 @@
             .team_card{
                 display: inherit;
                 flex-direction: column;
-                justify-content: center;
+                justify-content: space-evenly;
                 align-items: center;
                 border: none;
                 border-radius: 10px;
@@ -54,7 +53,7 @@
                 height: 20rem;
                 background-color: rgba(228, 228, 228, 0.473);
                 padding: 20px 40px;
-                font-size: .9rem;
+                font-size: .7rem;
                 margin: 10px 15px;
                 
                 img{
@@ -63,11 +62,6 @@
                     border-radius: 50%;
                 }
             }
-            /* .team_card:hover{
-                transition: .8s ease-in-out;
-                width: 19rem;
-                height: 21rem;
-            } */
         }
     } 
 }

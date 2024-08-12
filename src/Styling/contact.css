@@ -15,14 +15,13 @@
     flex-direction: row;
     justify-content: space-around;
     align-items: center;
-    /* font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif; */
     padding: 50px;
     gap: 18px;
     flex-wrap: wrap;
 
     q{
         line-height: 33px;
-        font-size: larger;
+        font-size: .9rem;
         width: 45%;
     }
 
@@ -38,12 +37,19 @@
         label{
         color: cadetblue;
         }
+
         input{
         padding: 5px;
         border: none;
         border-bottom: 2px solid cadetblue;
         background-color: transparent;
         }
+
+        input:focus{
+            background-color: #fff;
+            border: none;
+        }
+
         button{
         margin-top: 15px;
         padding: 8px 15px;
@@ -51,10 +57,11 @@
         border: none;
         border-radius: 5px;
         color: #fff;
-        background-color: rgb(48, 159, 233);
+        background-color: cadetblue;
         }
+    }
 }
-}
+
 .our-contacts{
     padding: 40px 70px;
     background-image: url("../Assets/hero_contactus.jpg");

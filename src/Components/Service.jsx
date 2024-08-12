@@ -33,9 +33,11 @@ function Service() {
       return <div className='service_content'>
           <img src={read_data.Images} alt=''/>
           <div onClick={()=>handleActive(index)}>
-            <h2>{read_data.Heading_2}</h2>
-            <span>
-            {isActive === index ? <FaAngleUp /> : <FaAngleDown />}</span>
+            <span className='details'>
+              <h2>{read_data.Heading_2}</h2>
+              <span>
+              {isActive === index ? <FaAngleUp /> : <FaAngleDown />}</span>
+              </span>
           </div>
           <div>
             {isActive === index && <p>{read_data.Paragraph}</p>}
