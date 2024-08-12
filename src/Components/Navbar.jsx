@@ -6,7 +6,7 @@ import { Fade as Hamburger } from 'hamburger-react'
 
 function Navbar() {
 
-  const [isOpen , setClass] = useState()
+  const [isOpen , setClass] = useState("closed_menu")
 
   return (
     <div id='nav'>
