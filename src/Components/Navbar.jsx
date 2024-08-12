@@ -9,9 +9,9 @@ function Navbar() {
   const [isOpen , setClass] = useState()
 
   return (
-    <div className={isOpen} id='nav'>
+    <div id='nav'>
         <img className='App-logo' src={logo} alt='logo' />
-        <ul id='navbar'>
+        <ul id='navbar' className={isOpen}>
             <Link className='a' to={'/'}>Home</Link>
             <Link className='a' to={'/about'}>About Us</Link>
             <div className='dropdown'>
